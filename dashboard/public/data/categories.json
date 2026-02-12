@@ -1,0 +1,455 @@
+{
+  "byCategory": [
+    {
+      "category": "SUPERMARKET",
+      "quantity": 45089939,
+      "revenue": 129971463.98,
+      "uniqueItems": 14370,
+      "activeDays": 1913
+    },
+    {
+      "category": "HOME_&_GARDEN",
+      "quantity": 14480670,
+      "revenue": 69503247.51,
+      "uniqueItems": 10470,
+      "activeDays": 1913
+    },
+    {
+      "category": "ACCESORIES",
+      "quantity": 6124800,
+      "revenue": 30140385.59,
+      "uniqueItems": 5650,
+      "activeDays": 1913
+    }
+  ],
+  "byDepartment": [
+    {
+      "department": "SUPERMARKET_3",
+      "quantity": 32372076,
+      "revenue": 84730614.59,
+      "uniqueItems": 8230
+    },
+    {
+      "department": "HOME_&_GARDEN_1",
+      "quantity": 11500526,
+      "revenue": 51247488.74,
+      "uniqueItems": 5320
+    },
+    {
+      "department": "SUPERMARKET_2",
+      "quantity": 7629822,
+      "revenue": 29820271.09,
+      "uniqueItems": 3980
+    },
+    {
+      "department": "ACCESORIES_1",
+      "quantity": 5596460,
+      "revenue": 28587277.05,
+      "uniqueItems": 4160
+    },
+    {
+      "department": "HOME_&_GARDEN_2",
+      "quantity": 2980144,
+      "revenue": 18255758.78,
+      "uniqueItems": 5150
+    },
+    {
+      "department": "SUPERMARKET_1",
+      "quantity": 5088041,
+      "revenue": 15420578.3,
+      "uniqueItems": 2160
+    },
+    {
+      "department": "ACCESORIES_2",
+      "quantity": 528340,
+      "revenue": 1553108.54,
+      "uniqueItems": 1490
+    }
+  ],
+  "evolution": [
+    {
+      "period": "2011-01",
+      "ACCESORIES": 8937.63,
+      "HOME_&_GARDEN": 20065.19,
+      "SUPERMARKET": 41921.69
+    },
+    {
+      "period": "2011-02",
+      "ACCESORIES": 279093.11,
+      "HOME_&_GARDEN": 685112.53,
+      "SUPERMARKET": 1391570.68
+    },
+    {
+      "period": "2011-03",
+      "ACCESORIES": 308672.49,
+      "HOME_&_GARDEN": 757975.18,
+      "SUPERMARKET": 1452778.94
+    },
+    {
+      "period": "2011-04",
+      "ACCESORIES": 333150.0,
+      "HOME_&_GARDEN": 760478.99,
+      "SUPERMARKET": 1399486.46
+    },
+    {
+      "period": "2011-05",
+      "ACCESORIES": 344962.46,
+      "HOME_&_GARDEN": 747589.89,
+      "SUPERMARKET": 1373207.8
+    },
+    {
+      "period": "2011-06",
+      "ACCESORIES": 332386.98,
+      "HOME_&_GARDEN": 747521.68,
+      "SUPERMARKET": 1467661.58
+    },
+    {
+      "period": "2011-07",
+      "ACCESORIES": 348251.1,
+      "HOME_&_GARDEN": 806265.19,
+      "SUPERMARKET": 1611638.46
+    },
+    {
+      "period": "2011-08",
+      "ACCESORIES": 318307.32,
+      "HOME_&_GARDEN": 801861.32,
+      "SUPERMARKET": 1631570.8
+    },
+    {
+      "period": "2011-09",
+      "ACCESORIES": 301037.95,
+      "HOME_&_GARDEN": 810741.19,
+      "SUPERMARKET": 1600754.28
+    },
+    {
+      "period": "2011-10",
+      "ACCESORIES": 319885.68,
+      "HOME_&_GARDEN": 853494.62,
+      "SUPERMARKET": 1749442.45
+    },
+    {
+      "period": "2011-11",
+      "ACCESORIES": 282965.8,
+      "HOME_&_GARDEN": 776094.15,
+      "SUPERMARKET": 1595430.96
+    },
+    {
+      "period": "2011-12",
+      "ACCESORIES": 320946.84,
+      "HOME_&_GARDEN": 772495.53,
+      "SUPERMARKET": 1776900.24
+    },
+    {
+      "period": "2012-01",
+      "ACCESORIES": 313237.88,
+      "HOME_&_GARDEN": 809658.99,
+      "SUPERMARKET": 1787859.66
+    },
+    {
+      "period": "2012-02",
+      "ACCESORIES": 322528.88,
+      "HOME_&_GARDEN": 890855.65,
+      "SUPERMARKET": 1815190.21
+    },
+    {
+      "period": "2012-03",
+      "ACCESORIES": 360322.35,
+      "HOME_&_GARDEN": 939231.31,
+      "SUPERMARKET": 1993629.84
+    },
+    {
+      "period": "2012-04",
+      "ACCESORIES": 349880.25,
+      "HOME_&_GARDEN": 870968.41,
+      "SUPERMARKET": 1910310.12
+    },
+    {
+      "period": "2012-05",
+      "ACCESORIES": 361952.16,
+      "HOME_&_GARDEN": 875562.14,
+      "SUPERMARKET": 2044778.15
+    },
+    {
+      "period": "2012-06",
+      "ACCESORIES": 385669.73,
+      "HOME_&_GARDEN": 983344.22,
+      "SUPERMARKET": 2135364.59
+    },
+    {
+      "period": "2012-07",
+      "ACCESORIES": 418849.94,
+      "HOME_&_GARDEN": 993726.64,
+      "SUPERMARKET": 2130771.85
+    },
+    {
+      "period": "2012-08",
+      "ACCESORIES": 413038.76,
+      "HOME_&_GARDEN": 1091353.04,
+      "SUPERMARKET": 2132462.14
+    },
+    {
+      "period": "2012-09",
+      "ACCESORIES": 409104.49,
+      "HOME_&_GARDEN": 1125535.49,
+      "SUPERMARKET": 2036148.88
+    },
+    {
+      "period": "2012-10",
+      "ACCESORIES": 416789.28,
+      "HOME_&_GARDEN": 1062729.65,
+      "SUPERMARKET": 1900811.06
+    },
+    {
+      "period": "2012-11",
+      "ACCESORIES": 404323.72,
+      "HOME_&_GARDEN": 1014269.74,
+      "SUPERMARKET": 1854694.85
+    },
+    {
+      "period": "2012-12",
+      "ACCESORIES": 446577.68,
+      "HOME_&_GARDEN": 1021422.12,
+      "SUPERMARKET": 2023217.34
+    },
+    {
+      "period": "2013-01",
+      "ACCESORIES": 448443.11,
+      "HOME_&_GARDEN": 983628.86,
+      "SUPERMARKET": 2018901.9
+    },
+    {
+      "period": "2013-02",
+      "ACCESORIES": 461807.14,
+      "HOME_&_GARDEN": 1049438.16,
+      "SUPERMARKET": 1933000.99
+    },
+    {
+      "period": "2013-03",
+      "ACCESORIES": 507528.98,
+      "HOME_&_GARDEN": 1166558.62,
+      "SUPERMARKET": 2142233.7
+    },
+    {
+      "period": "2013-04",
+      "ACCESORIES": 477270.55,
+      "HOME_&_GARDEN": 1091459.26,
+      "SUPERMARKET": 1918772.45
+    },
+    {
+      "period": "2013-05",
+      "ACCESORIES": 487589.53,
+      "HOME_&_GARDEN": 1135342.2,
+      "SUPERMARKET": 2012611.91
+    },
+    {
+      "period": "2013-06",
+      "ACCESORIES": 506936.51,
+      "HOME_&_GARDEN": 1137848.94,
+      "SUPERMARKET": 2116436.35
+    },
+    {
+      "period": "2013-07",
+      "ACCESORIES": 504746.24,
+      "HOME_&_GARDEN": 1160641.81,
+      "SUPERMARKET": 2173846.82
+    },
+    {
+      "period": "2013-08",
+      "ACCESORIES": 516970.14,
+      "HOME_&_GARDEN": 1232531.66,
+      "SUPERMARKET": 2200977.17
+    },
+    {
+      "period": "2013-09",
+      "ACCESORIES": 475797.3,
+      "HOME_&_GARDEN": 1175692.02,
+      "SUPERMARKET": 2162017.99
+    },
+    {
+      "period": "2013-10",
+      "ACCESORIES": 499458.69,
+      "HOME_&_GARDEN": 1171133.2,
+      "SUPERMARKET": 2180161.66
+    },
+    {
+      "period": "2013-11",
+      "ACCESORIES": 473931.16,
+      "HOME_&_GARDEN": 1099884.6,
+      "SUPERMARKET": 1997946.22
+    },
+    {
+      "period": "2013-12",
+      "ACCESORIES": 481015.05,
+      "HOME_&_GARDEN": 1048331.53,
+      "SUPERMARKET": 2043518.64
+    },
+    {
+      "period": "2014-01",
+      "ACCESORIES": 488979.5,
+      "HOME_&_GARDEN": 1051868.19,
+      "SUPERMARKET": 2063142.11
+    },
+    {
+      "period": "2014-02",
+      "ACCESORIES": 431961.95,
+      "HOME_&_GARDEN": 1104522.99,
+      "SUPERMARKET": 1975736.35
+    },
+    {
+      "period": "2014-03",
+      "ACCESORIES": 480059.12,
+      "HOME_&_GARDEN": 1241298.89,
+      "SUPERMARKET": 2241863.6
+    },
+    {
+      "period": "2014-04",
+      "ACCESORIES": 465076.25,
+      "HOME_&_GARDEN": 1143230.38,
+      "SUPERMARKET": 2228651.77
+    },
+    {
+      "period": "2014-05",
+      "ACCESORIES": 481315.59,
+      "HOME_&_GARDEN": 1164774.73,
+      "SUPERMARKET": 2242586.64
+    },
+    {
+      "period": "2014-06",
+      "ACCESORIES": 492485.02,
+      "HOME_&_GARDEN": 1171614.75,
+      "SUPERMARKET": 2200638.53
+    },
+    {
+      "period": "2014-07",
+      "ACCESORIES": 493861.9,
+      "HOME_&_GARDEN": 1225318.02,
+      "SUPERMARKET": 2252483.02
+    },
+    {
+      "period": "2014-08",
+      "ACCESORIES": 508188.38,
+      "HOME_&_GARDEN": 1286092.45,
+      "SUPERMARKET": 2298205.06
+    },
+    {
+      "period": "2014-09",
+      "ACCESORIES": 490361.16,
+      "HOME_&_GARDEN": 1200668.26,
+      "SUPERMARKET": 2213083.86
+    },
+    {
+      "period": "2014-10",
+      "ACCESORIES": 528954.25,
+      "HOME_&_GARDEN": 1245774.84,
+      "SUPERMARKET": 2349489.32
+    },
+    {
+      "period": "2014-11",
+      "ACCESORIES": 517358.28,
+      "HOME_&_GARDEN": 1179628.88,
+      "SUPERMARKET": 2249638.13
+    },
+    {
+      "period": "2014-12",
+      "ACCESORIES": 531634.17,
+      "HOME_&_GARDEN": 1104894.07,
+      "SUPERMARKET": 2201186.0
+    },
+    {
+      "period": "2015-01",
+      "ACCESORIES": 575410.75,
+      "HOME_&_GARDEN": 1178350.51,
+      "SUPERMARKET": 2297387.83
+    },
+    {
+      "period": "2015-02",
+      "ACCESORIES": 582715.79,
+      "HOME_&_GARDEN": 1201152.27,
+      "SUPERMARKET": 2118788.34
+    },
+    {
+      "period": "2015-03",
+      "ACCESORIES": 671316.21,
+      "HOME_&_GARDEN": 1373068.96,
+      "SUPERMARKET": 2293636.74
+    },
+    {
+      "period": "2015-04",
+      "ACCESORIES": 647672.32,
+      "HOME_&_GARDEN": 1317398.01,
+      "SUPERMARKET": 2251117.02
+    },
+    {
+      "period": "2015-05",
+      "ACCESORIES": 687941.2,
+      "HOME_&_GARDEN": 1417045.76,
+      "SUPERMARKET": 2339668.58
+    },
+    {
+      "period": "2015-06",
+      "ACCESORIES": 638648.58,
+      "HOME_&_GARDEN": 1351067.48,
+      "SUPERMARKET": 2259711.06
+    },
+    {
+      "period": "2015-07",
+      "ACCESORIES": 665508.34,
+      "HOME_&_GARDEN": 1452170.48,
+      "SUPERMARKET": 2410120.13
+    },
+    {
+      "period": "2015-08",
+      "ACCESORIES": 678701.37,
+      "HOME_&_GARDEN": 1541498.46,
+      "SUPERMARKET": 2439042.86
+    },
+    {
+      "period": "2015-09",
+      "ACCESORIES": 634369.2,
+      "HOME_&_GARDEN": 1398212.04,
+      "SUPERMARKET": 2368182.83
+    },
+    {
+      "period": "2015-10",
+      "ACCESORIES": 692530.27,
+      "HOME_&_GARDEN": 1446449.34,
+      "SUPERMARKET": 2595250.56
+    },
+    {
+      "period": "2015-11",
+      "ACCESORIES": 668221.69,
+      "HOME_&_GARDEN": 1361766.01,
+      "SUPERMARKET": 2323755.97
+    },
+    {
+      "period": "2015-12",
+      "ACCESORIES": 614928.67,
+      "HOME_&_GARDEN": 1193711.4,
+      "SUPERMARKET": 2091164.05
+    },
+    {
+      "period": "2016-01",
+      "ACCESORIES": 613799.56,
+      "HOME_&_GARDEN": 1259320.14,
+      "SUPERMARKET": 2350635.53
+    },
+    {
+      "period": "2016-02",
+      "ACCESORIES": 671767.48,
+      "HOME_&_GARDEN": 1466969.55,
+      "SUPERMARKET": 2571847.61
+    },
+    {
+      "period": "2016-03",
+      "ACCESORIES": 687309.58,
+      "HOME_&_GARDEN": 1502113.26,
+      "SUPERMARKET": 2709168.59
+    },
+    {
+      "period": "2016-04",
+      "ACCESORIES": 556942.17,
+      "HOME_&_GARDEN": 1252423.69,
+      "SUPERMARKET": 2277253.07
+    }
+  ]
+}

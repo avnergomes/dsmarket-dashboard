@@ -1,0 +1,3949 @@
+{
+  "byStore": [
+    {
+      "storeCode": "NYC_3",
+      "storeName": "Tribeca",
+      "region": "New York",
+      "quantity": 11188180,
+      "revenue": 39287679.12,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "NYC_1",
+      "storeName": "Greenwich_Village",
+      "region": "New York",
+      "quantity": 7698216,
+      "revenue": 27573638.2,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "BOS_2",
+      "storeName": "Roxbury",
+      "region": "Boston",
+      "quantity": 7214384,
+      "revenue": 25127082.08,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "BOS_3",
+      "storeName": "Back_Bay",
+      "region": "Boston",
+      "quantity": 6089330,
+      "revenue": 21811672.36,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "PHI_2",
+      "storeName": "Yorktown",
+      "region": "Philadelphia",
+      "quantity": 6544012,
+      "revenue": 21522592.51,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "NYC_2",
+      "storeName": "Harlem",
+      "region": "New York",
+      "quantity": 5685475,
+      "revenue": 21355995.54,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "PHI_3",
+      "storeName": "Queen_Village",
+      "region": "Philadelphia",
+      "quantity": 6427782,
+      "revenue": 20630804.48,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "BOS_1",
+      "storeName": "South_End",
+      "region": "Boston",
+      "quantity": 5595292,
+      "revenue": 19234496.23,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "PHI_1",
+      "storeName": "Midtown_Village",
+      "region": "Philadelphia",
+      "quantity": 5149062,
+      "revenue": 18111600.25,
+      "uniqueItems": 3049
+    },
+    {
+      "storeCode": "NYC_4",
+      "storeName": "Brooklyn",
+      "region": "New York",
+      "quantity": 4103676,
+      "revenue": 14959536.3,
+      "uniqueItems": 3049
+    }
+  ],
+  "byRegion": [
+    {
+      "region": "New York",
+      "quantity": 28675547,
+      "revenue": 103176849.17,
+      "storeCount": 4,
+      "uniqueItems": 12196
+    },
+    {
+      "region": "Boston",
+      "quantity": 18899006,
+      "revenue": 66173250.68,
+      "storeCount": 3,
+      "uniqueItems": 9147
+    },
+    {
+      "region": "Philadelphia",
+      "quantity": 18120856,
+      "revenue": 60264997.24,
+      "storeCount": 3,
+      "uniqueItems": 9147
+    }
+  ],
+  "monthly": [
+    {
+      "period": "2011-01",
+      "storeCode": "BOS_1",
+      "quantity": 7065,
+      "revenue": 5577.69
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "BOS_2",
+      "quantity": 10520,
+      "revenue": 8181.61
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "BOS_3",
+      "quantity": 8261,
+      "revenue": 6632.25
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "NYC_1",
+      "quantity": 11308,
+      "revenue": 8847.49
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "NYC_2",
+      "quantity": 8661,
+      "revenue": 6578.26
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "NYC_3",
+      "quantity": 13351,
+      "revenue": 11202.83
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "NYC_4",
+      "quantity": 4788,
+      "revenue": 4472.31
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "PHI_1",
+      "quantity": 6460,
+      "revenue": 4517.55
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "PHI_2",
+      "quantity": 6196,
+      "revenue": 5672.26
+    },
+    {
+      "period": "2011-01",
+      "storeCode": "PHI_3",
+      "quantity": 11553,
+      "revenue": 9242.24
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "BOS_1",
+      "quantity": 62534,
+      "revenue": 201584.07
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "BOS_2",
+      "quantity": 84900,
+      "revenue": 281352.7
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "BOS_3",
+      "quantity": 64581,
+      "revenue": 208708.63
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "NYC_1",
+      "quantity": 89434,
+      "revenue": 285962.48
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "NYC_2",
+      "quantity": 67686,
+      "revenue": 240138.73
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "NYC_3",
+      "quantity": 119792,
+      "revenue": 388412.1
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "NYC_4",
+      "quantity": 41189,
+      "revenue": 136536.5
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "PHI_1",
+      "quantity": 46592,
+      "revenue": 155148.6
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "PHI_2",
+      "quantity": 51708,
+      "revenue": 163134.14
+    },
+    {
+      "period": "2011-02",
+      "storeCode": "PHI_3",
+      "quantity": 97959,
+      "revenue": 294798.36
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "BOS_1",
+      "quantity": 66890,
+      "revenue": 216241.11
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "BOS_2",
+      "quantity": 89902,
+      "revenue": 300592.94
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "BOS_3",
+      "quantity": 68370,
+      "revenue": 222381.37
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "NYC_1",
+      "quantity": 93468,
+      "revenue": 306018.9
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "NYC_2",
+      "quantity": 73964,
+      "revenue": 264701.22
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "NYC_3",
+      "quantity": 127344,
+      "revenue": 424669.01
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "NYC_4",
+      "quantity": 44902,
+      "revenue": 151965.28
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "PHI_1",
+      "quantity": 49747,
+      "revenue": 167513.62
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "PHI_2",
+      "quantity": 51113,
+      "revenue": 164272.25
+    },
+    {
+      "period": "2011-03",
+      "storeCode": "PHI_3",
+      "quantity": 97867,
+      "revenue": 301070.91
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "BOS_1",
+      "quantity": 66435,
+      "revenue": 216642.92
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "BOS_2",
+      "quantity": 87683,
+      "revenue": 301752.74
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "BOS_3",
+      "quantity": 66563,
+      "revenue": 220852.57
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "NYC_1",
+      "quantity": 91553,
+      "revenue": 318356.48
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "NYC_2",
+      "quantity": 72803,
+      "revenue": 261959.65
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "NYC_3",
+      "quantity": 122428,
+      "revenue": 418791.79
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "NYC_4",
+      "quantity": 44220,
+      "revenue": 155383.44
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "PHI_1",
+      "quantity": 46898,
+      "revenue": 162004.19
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "PHI_2",
+      "quantity": 47651,
+      "revenue": 151835.74
+    },
+    {
+      "period": "2011-04",
+      "storeCode": "PHI_3",
+      "quantity": 91479,
+      "revenue": 285535.94
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "BOS_1",
+      "quantity": 67920,
+      "revenue": 218750.54
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "BOS_2",
+      "quantity": 86128,
+      "revenue": 299036.01
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "BOS_3",
+      "quantity": 67572,
+      "revenue": 227627.23
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "NYC_1",
+      "quantity": 87988,
+      "revenue": 309797.36
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "NYC_2",
+      "quantity": 68305,
+      "revenue": 256206.31
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "NYC_3",
+      "quantity": 120711,
+      "revenue": 414240.59
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "NYC_4",
+      "quantity": 44562,
+      "revenue": 161494.67
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "PHI_1",
+      "quantity": 45269,
+      "revenue": 160071.8
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "PHI_2",
+      "quantity": 45487,
+      "revenue": 144199.2
+    },
+    {
+      "period": "2011-05",
+      "storeCode": "PHI_3",
+      "quantity": 85620,
+      "revenue": 274336.43
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "BOS_1",
+      "quantity": 69945,
+      "revenue": 220121.35
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "BOS_2",
+      "quantity": 89914,
+      "revenue": 302503.12
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "BOS_3",
+      "quantity": 75794,
+      "revenue": 250566.44
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "NYC_1",
+      "quantity": 90376,
+      "revenue": 318369.65
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "NYC_2",
+      "quantity": 69380,
+      "revenue": 257730.83
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "NYC_3",
+      "quantity": 129867,
+      "revenue": 438855.61
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "NYC_4",
+      "quantity": 43325,
+      "revenue": 154378.11
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "PHI_1",
+      "quantity": 46776,
+      "revenue": 162973.71
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "PHI_2",
+      "quantity": 50737,
+      "revenue": 156873.25
+    },
+    {
+      "period": "2011-06",
+      "storeCode": "PHI_3",
+      "quantity": 87266,
+      "revenue": 285198.17
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "BOS_1",
+      "quantity": 75252,
+      "revenue": 235637.16
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "BOS_2",
+      "quantity": 97076,
+      "revenue": 325619.01
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "BOS_3",
+      "quantity": 83800,
+      "revenue": 271386.19
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "NYC_1",
+      "quantity": 96761,
+      "revenue": 344474.23
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "NYC_2",
+      "quantity": 79056,
+      "revenue": 289249.71
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "NYC_3",
+      "quantity": 139377,
+      "revenue": 483031.5
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "NYC_4",
+      "quantity": 46989,
+      "revenue": 169121.47
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "PHI_1",
+      "quantity": 49447,
+      "revenue": 171147.64
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "PHI_2",
+      "quantity": 54426,
+      "revenue": 165938.21
+    },
+    {
+      "period": "2011-07",
+      "storeCode": "PHI_3",
+      "quantity": 97636,
+      "revenue": 310549.63
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "BOS_1",
+      "quantity": 79759,
+      "revenue": 247056.75
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "BOS_2",
+      "quantity": 102564,
+      "revenue": 335178.66
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "BOS_3",
+      "quantity": 86326,
+      "revenue": 273854.62
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "NYC_1",
+      "quantity": 95113,
+      "revenue": 334493.95
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "NYC_2",
+      "quantity": 75129,
+      "revenue": 277313.2
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "NYC_3",
+      "quantity": 144376,
+      "revenue": 491155.81
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "NYC_4",
+      "quantity": 46818,
+      "revenue": 170772.92
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "PHI_1",
+      "quantity": 46683,
+      "revenue": 161330.6
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "PHI_2",
+      "quantity": 51072,
+      "revenue": 159346.17
+    },
+    {
+      "period": "2011-08",
+      "storeCode": "PHI_3",
+      "quantity": 97854,
+      "revenue": 301236.75
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "BOS_1",
+      "quantity": 75458,
+      "revenue": 241937.5
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "BOS_2",
+      "quantity": 98961,
+      "revenue": 320637.13
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "BOS_3",
+      "quantity": 81752,
+      "revenue": 259740.01
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "NYC_1",
+      "quantity": 92339,
+      "revenue": 320974.18
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "NYC_2",
+      "quantity": 74779,
+      "revenue": 272433.49
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "NYC_3",
+      "quantity": 142568,
+      "revenue": 489043.92
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "NYC_4",
+      "quantity": 51608,
+      "revenue": 177239.64
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "PHI_1",
+      "quantity": 47537,
+      "revenue": 164917.38
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "PHI_2",
+      "quantity": 49721,
+      "revenue": 157029.26
+    },
+    {
+      "period": "2011-09",
+      "storeCode": "PHI_3",
+      "quantity": 98960,
+      "revenue": 308580.89
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "BOS_1",
+      "quantity": 79432,
+      "revenue": 253049.95
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "BOS_2",
+      "quantity": 109783,
+      "revenue": 354762.26
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "BOS_3",
+      "quantity": 87136,
+      "revenue": 279046.66
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "NYC_1",
+      "quantity": 105153,
+      "revenue": 345299.8
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "NYC_2",
+      "quantity": 81947,
+      "revenue": 289266.4
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "NYC_3",
+      "quantity": 160365,
+      "revenue": 536855.3
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "NYC_4",
+      "quantity": 58868,
+      "revenue": 192955.74
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "PHI_1",
+      "quantity": 52114,
+      "revenue": 174931.96
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "PHI_2",
+      "quantity": 52652,
+      "revenue": 160555.82
+    },
+    {
+      "period": "2011-10",
+      "storeCode": "PHI_3",
+      "quantity": 110793,
+      "revenue": 336098.86
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "BOS_1",
+      "quantity": 71441,
+      "revenue": 230919.81
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "BOS_2",
+      "quantity": 98023,
+      "revenue": 316267.47
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "BOS_3",
+      "quantity": 79566,
+      "revenue": 257108.54
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "NYC_1",
+      "quantity": 99155,
+      "revenue": 317491.66
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "NYC_2",
+      "quantity": 74165,
+      "revenue": 259102.35
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "NYC_3",
+      "quantity": 145024,
+      "revenue": 481435.34
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "NYC_4",
+      "quantity": 52992,
+      "revenue": 173937.1
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "PHI_1",
+      "quantity": 48654,
+      "revenue": 157560.39
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "PHI_2",
+      "quantity": 49558,
+      "revenue": 148968.43
+    },
+    {
+      "period": "2011-11",
+      "storeCode": "PHI_3",
+      "quantity": 104509,
+      "revenue": 311699.82
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "BOS_1",
+      "quantity": 77425,
+      "revenue": 248803.46
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "BOS_2",
+      "quantity": 105169,
+      "revenue": 342151.35
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "BOS_3",
+      "quantity": 81259,
+      "revenue": 264258.21
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "NYC_1",
+      "quantity": 108145,
+      "revenue": 351992.63
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "NYC_2",
+      "quantity": 80208,
+      "revenue": 280887.35
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "NYC_3",
+      "quantity": 155624,
+      "revenue": 513511.9
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "NYC_4",
+      "quantity": 55838,
+      "revenue": 187003.66
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "PHI_1",
+      "quantity": 53844,
+      "revenue": 175288.55
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "PHI_2",
+      "quantity": 55933,
+      "revenue": 164697.09
+    },
+    {
+      "period": "2011-12",
+      "storeCode": "PHI_3",
+      "quantity": 113853,
+      "revenue": 341748.38
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "BOS_1",
+      "quantity": 77448,
+      "revenue": 249414.74
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "BOS_2",
+      "quantity": 107283,
+      "revenue": 347638.21
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "BOS_3",
+      "quantity": 80685,
+      "revenue": 259052.06
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "NYC_1",
+      "quantity": 106579,
+      "revenue": 350535.39
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "NYC_2",
+      "quantity": 77786,
+      "revenue": 281866.07
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "NYC_3",
+      "quantity": 160276,
+      "revenue": 530913.36
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "NYC_4",
+      "quantity": 58738,
+      "revenue": 198982.03
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "PHI_1",
+      "quantity": 51901,
+      "revenue": 170581.69
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "PHI_2",
+      "quantity": 57600,
+      "revenue": 171624.25
+    },
+    {
+      "period": "2012-01",
+      "storeCode": "PHI_3",
+      "quantity": 115079,
+      "revenue": 350148.73
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "BOS_1",
+      "quantity": 77203,
+      "revenue": 260738.09
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "BOS_2",
+      "quantity": 109956,
+      "revenue": 364795.81
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "BOS_3",
+      "quantity": 80375,
+      "revenue": 271791.77
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "NYC_1",
+      "quantity": 105943,
+      "revenue": 363203.3
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "NYC_2",
+      "quantity": 76957,
+      "revenue": 282340.41
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "NYC_3",
+      "quantity": 166655,
+      "revenue": 565524.53
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "NYC_4",
+      "quantity": 55935,
+      "revenue": 194699.47
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "PHI_1",
+      "quantity": 52938,
+      "revenue": 180456.65
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "PHI_2",
+      "quantity": 58404,
+      "revenue": 182690.01
+    },
+    {
+      "period": "2012-02",
+      "storeCode": "PHI_3",
+      "quantity": 113624,
+      "revenue": 362334.7
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "BOS_1",
+      "quantity": 86340,
+      "revenue": 287824.64
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "BOS_2",
+      "quantity": 122843,
+      "revenue": 404016.47
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "BOS_3",
+      "quantity": 89407,
+      "revenue": 296817.1
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "NYC_1",
+      "quantity": 119562,
+      "revenue": 404297.22
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "NYC_2",
+      "quantity": 87001,
+      "revenue": 315355.73
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "NYC_3",
+      "quantity": 182210,
+      "revenue": 608132.07
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "NYC_4",
+      "quantity": 61246,
+      "revenue": 214252.29
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "PHI_1",
+      "quantity": 57633,
+      "revenue": 198482.14
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "PHI_2",
+      "quantity": 56815,
+      "revenue": 177429.13
+    },
+    {
+      "period": "2012-03",
+      "storeCode": "PHI_3",
+      "quantity": 123837,
+      "revenue": 386576.72
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "BOS_1",
+      "quantity": 90560,
+      "revenue": 294739.59
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "BOS_2",
+      "quantity": 120606,
+      "revenue": 394771.69
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "BOS_3",
+      "quantity": 84957,
+      "revenue": 284520.69
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "NYC_1",
+      "quantity": 119329,
+      "revenue": 397632.42
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "NYC_2",
+      "quantity": 84605,
+      "revenue": 305201.76
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "NYC_3",
+      "quantity": 166752,
+      "revenue": 551111.83
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "NYC_4",
+      "quantity": 60311,
+      "revenue": 204604.6
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "PHI_1",
+      "quantity": 54172,
+      "revenue": 185946.05
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "PHI_2",
+      "quantity": 49248,
+      "revenue": 156881.09
+    },
+    {
+      "period": "2012-04",
+      "storeCode": "PHI_3",
+      "quantity": 114318,
+      "revenue": 355749.06
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "BOS_1",
+      "quantity": 93122,
+      "revenue": 301979.31
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "BOS_2",
+      "quantity": 125254,
+      "revenue": 406994.72
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "BOS_3",
+      "quantity": 90357,
+      "revenue": 297880.19
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "NYC_1",
+      "quantity": 122693,
+      "revenue": 413156.88
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "NYC_2",
+      "quantity": 86714,
+      "revenue": 314155.89
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "NYC_3",
+      "quantity": 171516,
+      "revenue": 561306.33
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "NYC_4",
+      "quantity": 61675,
+      "revenue": 209596.46
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "PHI_1",
+      "quantity": 56463,
+      "revenue": 193434.9
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "PHI_2",
+      "quantity": 61901,
+      "revenue": 201471.57
+    },
+    {
+      "period": "2012-05",
+      "storeCode": "PHI_3",
+      "quantity": 128051,
+      "revenue": 382316.18
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "BOS_1",
+      "quantity": 94846,
+      "revenue": 301014.85
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "BOS_2",
+      "quantity": 133109,
+      "revenue": 423352.06
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "BOS_3",
+      "quantity": 98825,
+      "revenue": 315218.63
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "NYC_1",
+      "quantity": 128492,
+      "revenue": 430100.52
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "NYC_2",
+      "quantity": 93534,
+      "revenue": 330978.61
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "NYC_3",
+      "quantity": 187857,
+      "revenue": 590332.79
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "NYC_4",
+      "quantity": 63963,
+      "revenue": 217861.7
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "PHI_1",
+      "quantity": 62723,
+      "revenue": 202043.54
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "PHI_2",
+      "quantity": 97162,
+      "revenue": 300123.04
+    },
+    {
+      "period": "2012-06",
+      "storeCode": "PHI_3",
+      "quantity": 135098,
+      "revenue": 393352.78
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "BOS_1",
+      "quantity": 91315,
+      "revenue": 295508.55
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "BOS_2",
+      "quantity": 127373,
+      "revenue": 422991.32
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "BOS_3",
+      "quantity": 95258,
+      "revenue": 316596.04
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "NYC_1",
+      "quantity": 126739,
+      "revenue": 437764.77
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "NYC_2",
+      "quantity": 93251,
+      "revenue": 333814.36
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "NYC_3",
+      "quantity": 189614,
+      "revenue": 604299.98
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "NYC_4",
+      "quantity": 63118,
+      "revenue": 216690.89
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "PHI_1",
+      "quantity": 58506,
+      "revenue": 197175.47
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "PHI_2",
+      "quantity": 103202,
+      "revenue": 322567.66
+    },
+    {
+      "period": "2012-07",
+      "storeCode": "PHI_3",
+      "quantity": 132401,
+      "revenue": 395939.39
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "BOS_1",
+      "quantity": 95477,
+      "revenue": 303328.1
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "BOS_2",
+      "quantity": 132341,
+      "revenue": 430954.3
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "BOS_3",
+      "quantity": 101531,
+      "revenue": 329188.21
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "NYC_1",
+      "quantity": 130572,
+      "revenue": 451456.24
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "NYC_2",
+      "quantity": 95268,
+      "revenue": 346116.77
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "NYC_3",
+      "quantity": 195856,
+      "revenue": 633882.39
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "NYC_4",
+      "quantity": 65210,
+      "revenue": 222972.3
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "PHI_1",
+      "quantity": 53950,
+      "revenue": 192651.92
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "PHI_2",
+      "quantity": 110465,
+      "revenue": 349642.07
+    },
+    {
+      "period": "2012-08",
+      "storeCode": "PHI_3",
+      "quantity": 122110,
+      "revenue": 376661.62
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "BOS_1",
+      "quantity": 95226,
+      "revenue": 305142.52
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "BOS_2",
+      "quantity": 125690,
+      "revenue": 419478.75
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "BOS_3",
+      "quantity": 97529,
+      "revenue": 322929.95
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "NYC_1",
+      "quantity": 121643,
+      "revenue": 421618.27
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "NYC_2",
+      "quantity": 92112,
+      "revenue": 335846.52
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "NYC_3",
+      "quantity": 184289,
+      "revenue": 616855.26
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "NYC_4",
+      "quantity": 64044,
+      "revenue": 224697.78
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "PHI_1",
+      "quantity": 53807,
+      "revenue": 188850.86
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "PHI_2",
+      "quantity": 109152,
+      "revenue": 354000.88
+    },
+    {
+      "period": "2012-09",
+      "storeCode": "PHI_3",
+      "quantity": 120872,
+      "revenue": 381368.07
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "BOS_1",
+      "quantity": 88903,
+      "revenue": 287824.68
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "BOS_2",
+      "quantity": 122138,
+      "revenue": 399810.66
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "BOS_3",
+      "quantity": 94341,
+      "revenue": 315617.12
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "NYC_1",
+      "quantity": 111356,
+      "revenue": 383800.83
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "NYC_2",
+      "quantity": 85724,
+      "revenue": 321893.84
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "NYC_3",
+      "quantity": 175625,
+      "revenue": 579674.94
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "NYC_4",
+      "quantity": 60369,
+      "revenue": 214517.9
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "PHI_1",
+      "quantity": 49720,
+      "revenue": 176247.08
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "PHI_2",
+      "quantity": 105019,
+      "revenue": 338527.2
+    },
+    {
+      "period": "2012-10",
+      "storeCode": "PHI_3",
+      "quantity": 113113,
+      "revenue": 362415.77
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "BOS_1",
+      "quantity": 83009,
+      "revenue": 270852.08
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "BOS_2",
+      "quantity": 111315,
+      "revenue": 368608.32
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "BOS_3",
+      "quantity": 83608,
+      "revenue": 286414.47
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "NYC_1",
+      "quantity": 103525,
+      "revenue": 363513.18
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "NYC_2",
+      "quantity": 76170,
+      "revenue": 293690.79
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "NYC_3",
+      "quantity": 155888,
+      "revenue": 525885.37
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "NYC_4",
+      "quantity": 55944,
+      "revenue": 197582.25
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "PHI_1",
+      "quantity": 83180,
+      "revenue": 294556.15
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "PHI_2",
+      "quantity": 101298,
+      "revenue": 328299.73
+    },
+    {
+      "period": "2012-11",
+      "storeCode": "PHI_3",
+      "quantity": 106747,
+      "revenue": 343885.98
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "BOS_1",
+      "quantity": 90662,
+      "revenue": 294207.02
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "BOS_2",
+      "quantity": 122314,
+      "revenue": 403304.62
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "BOS_3",
+      "quantity": 90325,
+      "revenue": 302804.82
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "NYC_1",
+      "quantity": 109999,
+      "revenue": 385061.79
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "NYC_2",
+      "quantity": 83362,
+      "revenue": 316895.77
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "NYC_3",
+      "quantity": 163168,
+      "revenue": 557038.62
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "NYC_4",
+      "quantity": 59312,
+      "revenue": 212841.81
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "PHI_1",
+      "quantity": 90395,
+      "revenue": 314319.46
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "PHI_2",
+      "quantity": 108465,
+      "revenue": 344508.51
+    },
+    {
+      "period": "2012-12",
+      "storeCode": "PHI_3",
+      "quantity": 112450,
+      "revenue": 360234.72
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "BOS_1",
+      "quantity": 83059,
+      "revenue": 273224.96
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "BOS_2",
+      "quantity": 115495,
+      "revenue": 391293.56
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "BOS_3",
+      "quantity": 87695,
+      "revenue": 297306.03
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "NYC_1",
+      "quantity": 109525,
+      "revenue": 384237.54
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "NYC_2",
+      "quantity": 82143,
+      "revenue": 309876.84
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "NYC_3",
+      "quantity": 167290,
+      "revenue": 572342.89
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "NYC_4",
+      "quantity": 59762,
+      "revenue": 215699.1
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "PHI_1",
+      "quantity": 82052,
+      "revenue": 292482.82
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "PHI_2",
+      "quantity": 114294,
+      "revenue": 358213.98
+    },
+    {
+      "period": "2013-01",
+      "storeCode": "PHI_3",
+      "quantity": 107245,
+      "revenue": 356296.16
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "BOS_1",
+      "quantity": 87148,
+      "revenue": 286625.78
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "BOS_2",
+      "quantity": 122130,
+      "revenue": 413096.84
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "BOS_3",
+      "quantity": 88546,
+      "revenue": 302518.92
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "NYC_1",
+      "quantity": 108956,
+      "revenue": 387348.12
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "NYC_2",
+      "quantity": 80620,
+      "revenue": 294268.01
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "NYC_3",
+      "quantity": 156628,
+      "revenue": 539537.33
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "NYC_4",
+      "quantity": 58691,
+      "revenue": 205816.75
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "PHI_1",
+      "quantity": 77925,
+      "revenue": 269075.2
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "PHI_2",
+      "quantity": 118594,
+      "revenue": 380559.56
+    },
+    {
+      "period": "2013-02",
+      "storeCode": "PHI_3",
+      "quantity": 111422,
+      "revenue": 365399.78
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "BOS_1",
+      "quantity": 95007,
+      "revenue": 322508.08
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "BOS_2",
+      "quantity": 134715,
+      "revenue": 462701.85
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "BOS_3",
+      "quantity": 94320,
+      "revenue": 321861.87
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "NYC_1",
+      "quantity": 122496,
+      "revenue": 436330.31
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "NYC_2",
+      "quantity": 94964,
+      "revenue": 343710.89
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "NYC_3",
+      "quantity": 178386,
+      "revenue": 608981.61
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "NYC_4",
+      "quantity": 66969,
+      "revenue": 238617.52
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "PHI_1",
+      "quantity": 89197,
+      "revenue": 300064.0
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "PHI_2",
+      "quantity": 121093,
+      "revenue": 385783.57
+    },
+    {
+      "period": "2013-03",
+      "storeCode": "PHI_3",
+      "quantity": 120423,
+      "revenue": 395761.6
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "BOS_1",
+      "quantity": 88107,
+      "revenue": 296712.11
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "BOS_2",
+      "quantity": 122099,
+      "revenue": 405906.09
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "BOS_3",
+      "quantity": 87547,
+      "revenue": 295451.86
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "NYC_1",
+      "quantity": 118365,
+      "revenue": 413928.41
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "NYC_2",
+      "quantity": 89100,
+      "revenue": 318871.43
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "NYC_3",
+      "quantity": 180615,
+      "revenue": 604719.49
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "NYC_4",
+      "quantity": 65472,
+      "revenue": 232249.38
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "PHI_1",
+      "quantity": 77002,
+      "revenue": 262946.09
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "PHI_2",
+      "quantity": 110150,
+      "revenue": 345169.71
+    },
+    {
+      "period": "2013-04",
+      "storeCode": "PHI_3",
+      "quantity": 95579,
+      "revenue": 311547.68
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "BOS_1",
+      "quantity": 92412,
+      "revenue": 306372.1
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "BOS_2",
+      "quantity": 127418,
+      "revenue": 429814.46
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "BOS_3",
+      "quantity": 92328,
+      "revenue": 309886.17
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "NYC_1",
+      "quantity": 128245,
+      "revenue": 451861.67
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "NYC_2",
+      "quantity": 94256,
+      "revenue": 341900.13
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "NYC_3",
+      "quantity": 186407,
+      "revenue": 628809.72
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "NYC_4",
+      "quantity": 70362,
+      "revenue": 245949.2
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "PHI_1",
+      "quantity": 82535,
+      "revenue": 279119.1
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "PHI_2",
+      "quantity": 110700,
+      "revenue": 355124.5
+    },
+    {
+      "period": "2013-05",
+      "storeCode": "PHI_3",
+      "quantity": 90020,
+      "revenue": 286706.59
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "BOS_1",
+      "quantity": 98388,
+      "revenue": 317277.54
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "BOS_2",
+      "quantity": 137755,
+      "revenue": 453859.51
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "BOS_3",
+      "quantity": 96820,
+      "revenue": 324791.41
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "NYC_1",
+      "quantity": 136580,
+      "revenue": 469831.48
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "NYC_2",
+      "quantity": 100712,
+      "revenue": 355958.62
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "NYC_3",
+      "quantity": 200392,
+      "revenue": 652020.24
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "NYC_4",
+      "quantity": 73282,
+      "revenue": 251011.53
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "PHI_1",
+      "quantity": 86929,
+      "revenue": 291355.38
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "PHI_2",
+      "quantity": 111708,
+      "revenue": 358537.0
+    },
+    {
+      "period": "2013-06",
+      "storeCode": "PHI_3",
+      "quantity": 93027,
+      "revenue": 286579.1
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "BOS_1",
+      "quantity": 95094,
+      "revenue": 315380.02
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "BOS_2",
+      "quantity": 141604,
+      "revenue": 461540.53
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "BOS_3",
+      "quantity": 99949,
+      "revenue": 328250.81
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "NYC_1",
+      "quantity": 141288,
+      "revenue": 483125.69
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "NYC_2",
+      "quantity": 100760,
+      "revenue": 360331.84
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "NYC_3",
+      "quantity": 205820,
+      "revenue": 678235.77
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "NYC_4",
+      "quantity": 75030,
+      "revenue": 256225.82
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "PHI_1",
+      "quantity": 88702,
+      "revenue": 297607.36
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "PHI_2",
+      "quantity": 113941,
+      "revenue": 359451.57
+    },
+    {
+      "period": "2013-07",
+      "storeCode": "PHI_3",
+      "quantity": 97279,
+      "revenue": 299085.47
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "BOS_1",
+      "quantity": 101575,
+      "revenue": 326921.35
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "BOS_2",
+      "quantity": 143238,
+      "revenue": 464669.58
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "BOS_3",
+      "quantity": 107360,
+      "revenue": 341318.0
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "NYC_1",
+      "quantity": 147275,
+      "revenue": 497086.47
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "NYC_2",
+      "quantity": 104709,
+      "revenue": 371031.77
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "NYC_3",
+      "quantity": 211210,
+      "revenue": 693964.93
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "NYC_4",
+      "quantity": 75506,
+      "revenue": 259521.2
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "PHI_1",
+      "quantity": 90422,
+      "revenue": 301885.12
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "PHI_2",
+      "quantity": 120573,
+      "revenue": 382333.82
+    },
+    {
+      "period": "2013-08",
+      "storeCode": "PHI_3",
+      "quantity": 102945,
+      "revenue": 311746.71
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "BOS_1",
+      "quantity": 98008,
+      "revenue": 311850.7
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "BOS_2",
+      "quantity": 134813,
+      "revenue": 436583.65
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "BOS_3",
+      "quantity": 102327,
+      "revenue": 330471.28
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "NYC_1",
+      "quantity": 139731,
+      "revenue": 467830.3
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "NYC_2",
+      "quantity": 101466,
+      "revenue": 360103.42
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "NYC_3",
+      "quantity": 206422,
+      "revenue": 678574.29
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "NYC_4",
+      "quantity": 74758,
+      "revenue": 256526.73
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "PHI_1",
+      "quantity": 86316,
+      "revenue": 287563.57
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "PHI_2",
+      "quantity": 123111,
+      "revenue": 384902.47
+    },
+    {
+      "period": "2013-09",
+      "storeCode": "PHI_3",
+      "quantity": 99563,
+      "revenue": 299100.89
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "BOS_1",
+      "quantity": 93539,
+      "revenue": 315513.81
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "BOS_2",
+      "quantity": 126207,
+      "revenue": 428716.92
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "BOS_3",
+      "quantity": 97827,
+      "revenue": 333813.99
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "NYC_1",
+      "quantity": 132669,
+      "revenue": 472077.25
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "NYC_2",
+      "quantity": 97920,
+      "revenue": 362483.52
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "NYC_3",
+      "quantity": 198465,
+      "revenue": 683194.39
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "NYC_4",
+      "quantity": 72735,
+      "revenue": 256691.61
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "PHI_1",
+      "quantity": 84700,
+      "revenue": 294069.86
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "PHI_2",
+      "quantity": 123861,
+      "revenue": 399050.7
+    },
+    {
+      "period": "2013-10",
+      "storeCode": "PHI_3",
+      "quantity": 96600,
+      "revenue": 305141.49
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "BOS_1",
+      "quantity": 85233,
+      "revenue": 287691.3
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "BOS_2",
+      "quantity": 115379,
+      "revenue": 393625.53
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "BOS_3",
+      "quantity": 90903,
+      "revenue": 313865.54
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "NYC_1",
+      "quantity": 123935,
+      "revenue": 433845.1
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "NYC_2",
+      "quantity": 87266,
+      "revenue": 329109.45
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "NYC_3",
+      "quantity": 180387,
+      "revenue": 628831.06
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "NYC_4",
+      "quantity": 66161,
+      "revenue": 236032.95
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "PHI_1",
+      "quantity": 84759,
+      "revenue": 291833.91
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "PHI_2",
+      "quantity": 117153,
+      "revenue": 367416.71
+    },
+    {
+      "period": "2013-11",
+      "storeCode": "PHI_3",
+      "quantity": 93623,
+      "revenue": 289510.44
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "BOS_1",
+      "quantity": 88000,
+      "revenue": 295993.15
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "BOS_2",
+      "quantity": 115455,
+      "revenue": 391449.33
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "BOS_3",
+      "quantity": 90559,
+      "revenue": 310693.04
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "NYC_1",
+      "quantity": 129475,
+      "revenue": 447551.08
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "NYC_2",
+      "quantity": 87616,
+      "revenue": 330150.05
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "NYC_3",
+      "quantity": 177611,
+      "revenue": 606022.42
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "NYC_4",
+      "quantity": 65368,
+      "revenue": 229850.65
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "PHI_1",
+      "quantity": 90555,
+      "revenue": 306051.79
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "PHI_2",
+      "quantity": 116312,
+      "revenue": 361755.67
+    },
+    {
+      "period": "2013-12",
+      "storeCode": "PHI_3",
+      "quantity": 93583,
+      "revenue": 293348.04
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "BOS_1",
+      "quantity": 86098,
+      "revenue": 287681.03
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "BOS_2",
+      "quantity": 108905,
+      "revenue": 374480.23
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "BOS_3",
+      "quantity": 91730,
+      "revenue": 312876.17
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "NYC_1",
+      "quantity": 123859,
+      "revenue": 432466.09
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "NYC_2",
+      "quantity": 88280,
+      "revenue": 328526.66
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "NYC_3",
+      "quantity": 184846,
+      "revenue": 640705.84
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "NYC_4",
+      "quantity": 69147,
+      "revenue": 242283.29
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "PHI_1",
+      "quantity": 87672,
+      "revenue": 305407.73
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "PHI_2",
+      "quantity": 118130,
+      "revenue": 370603.73
+    },
+    {
+      "period": "2014-01",
+      "storeCode": "PHI_3",
+      "quantity": 98345,
+      "revenue": 308959.03
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "BOS_1",
+      "quantity": 84296,
+      "revenue": 287972.18
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "BOS_2",
+      "quantity": 104107,
+      "revenue": 357180.88
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "BOS_3",
+      "quantity": 92710,
+      "revenue": 331365.64
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "NYC_1",
+      "quantity": 113642,
+      "revenue": 403017.5
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "NYC_2",
+      "quantity": 84774,
+      "revenue": 320079.9
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "NYC_3",
+      "quantity": 169616,
+      "revenue": 598655.13
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "NYC_4",
+      "quantity": 63298,
+      "revenue": 228055.98
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "PHI_1",
+      "quantity": 83734,
+      "revenue": 298520.96
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "PHI_2",
+      "quantity": 122648,
+      "revenue": 388179.8
+    },
+    {
+      "period": "2014-02",
+      "storeCode": "PHI_3",
+      "quantity": 90935,
+      "revenue": 299193.32
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "BOS_1",
+      "quantity": 95562,
+      "revenue": 329288.66
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "BOS_2",
+      "quantity": 114231,
+      "revenue": 395878.88
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "BOS_3",
+      "quantity": 107234,
+      "revenue": 384102.89
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "NYC_1",
+      "quantity": 128947,
+      "revenue": 462464.75
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "NYC_2",
+      "quantity": 96707,
+      "revenue": 364927.12
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "NYC_3",
+      "quantity": 192506,
+      "revenue": 689328.74
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "NYC_4",
+      "quantity": 71510,
+      "revenue": 261498.81
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "PHI_1",
+      "quantity": 94220,
+      "revenue": 336857.28
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "PHI_2",
+      "quantity": 125690,
+      "revenue": 415822.65
+    },
+    {
+      "period": "2014-03",
+      "storeCode": "PHI_3",
+      "quantity": 97099,
+      "revenue": 323051.85
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "BOS_1",
+      "quantity": 96505,
+      "revenue": 327566.5
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "BOS_2",
+      "quantity": 112459,
+      "revenue": 385858.6
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "BOS_3",
+      "quantity": 105957,
+      "revenue": 384023.72
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "NYC_1",
+      "quantity": 132059,
+      "revenue": 464733.19
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "NYC_2",
+      "quantity": 88580,
+      "revenue": 332433.75
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "NYC_3",
+      "quantity": 197001,
+      "revenue": 691018.54
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "NYC_4",
+      "quantity": 70553,
+      "revenue": 258804.09
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "PHI_1",
+      "quantity": 93684,
+      "revenue": 330185.64
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "PHI_2",
+      "quantity": 121696,
+      "revenue": 385528.84
+    },
+    {
+      "period": "2014-04",
+      "storeCode": "PHI_3",
+      "quantity": 85793,
+      "revenue": 276805.52
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "BOS_1",
+      "quantity": 93793,
+      "revenue": 328274.67
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "BOS_2",
+      "quantity": 110674,
+      "revenue": 388915.54
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "BOS_3",
+      "quantity": 102759,
+      "revenue": 377316.94
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "NYC_1",
+      "quantity": 131457,
+      "revenue": 478060.24
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "NYC_2",
+      "quantity": 87313,
+      "revenue": 328363.09
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "NYC_3",
+      "quantity": 197759,
+      "revenue": 699356.6
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "NYC_4",
+      "quantity": 71038,
+      "revenue": 266256.16
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "PHI_1",
+      "quantity": 96740,
+      "revenue": 342803.02
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "PHI_2",
+      "quantity": 117516,
+      "revenue": 398263.21
+    },
+    {
+      "period": "2014-05",
+      "storeCode": "PHI_3",
+      "quantity": 84043,
+      "revenue": 281067.5
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "BOS_1",
+      "quantity": 94031,
+      "revenue": 329643.64
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "BOS_2",
+      "quantity": 116126,
+      "revenue": 393624.6
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "BOS_3",
+      "quantity": 106073,
+      "revenue": 378152.94
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "NYC_1",
+      "quantity": 133238,
+      "revenue": 474078.17
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "NYC_2",
+      "quantity": 84492,
+      "revenue": 311882.32
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "NYC_3",
+      "quantity": 201851,
+      "revenue": 706950.47
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "NYC_4",
+      "quantity": 73900,
+      "revenue": 267739.77
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "PHI_1",
+      "quantity": 98336,
+      "revenue": 341229.18
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "PHI_2",
+      "quantity": 118823,
+      "revenue": 391203.41
+    },
+    {
+      "period": "2014-06",
+      "storeCode": "PHI_3",
+      "quantity": 83161,
+      "revenue": 270233.8
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "BOS_1",
+      "quantity": 97904,
+      "revenue": 335054.42
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "BOS_2",
+      "quantity": 120162,
+      "revenue": 406592.75
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "BOS_3",
+      "quantity": 110754,
+      "revenue": 390823.87
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "NYC_1",
+      "quantity": 140310,
+      "revenue": 496846.31
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "NYC_2",
+      "quantity": 86781,
+      "revenue": 321592.6
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "NYC_3",
+      "quantity": 210574,
+      "revenue": 733227.32
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "NYC_4",
+      "quantity": 73526,
+      "revenue": 264626.72
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "PHI_1",
+      "quantity": 102475,
+      "revenue": 352725.71
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "PHI_2",
+      "quantity": 124224,
+      "revenue": 394946.02
+    },
+    {
+      "period": "2014-07",
+      "storeCode": "PHI_3",
+      "quantity": 85054,
+      "revenue": 275227.2
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "BOS_1",
+      "quantity": 100829,
+      "revenue": 340061.42
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "BOS_2",
+      "quantity": 120484,
+      "revenue": 413372.27
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "BOS_3",
+      "quantity": 114590,
+      "revenue": 397172.86
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "NYC_1",
+      "quantity": 145962,
+      "revenue": 516053.47
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "NYC_2",
+      "quantity": 86351,
+      "revenue": 326007.32
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "NYC_3",
+      "quantity": 214357,
+      "revenue": 753623.94
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "NYC_4",
+      "quantity": 74225,
+      "revenue": 272371.6
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "PHI_1",
+      "quantity": 104881,
+      "revenue": 369097.36
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "PHI_2",
+      "quantity": 131948,
+      "revenue": 417167.39
+    },
+    {
+      "period": "2014-08",
+      "storeCode": "PHI_3",
+      "quantity": 90475,
+      "revenue": 287558.26
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "BOS_1",
+      "quantity": 89094,
+      "revenue": 314243.04
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "BOS_2",
+      "quantity": 109630,
+      "revenue": 388446.88
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "BOS_3",
+      "quantity": 102896,
+      "revenue": 371700.96
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "NYC_1",
+      "quantity": 131924,
+      "revenue": 486504.53
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "NYC_2",
+      "quantity": 80729,
+      "revenue": 313216.53
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "NYC_3",
+      "quantity": 202057,
+      "revenue": 719924.82
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "NYC_4",
+      "quantity": 71481,
+      "revenue": 272847.38
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "PHI_1",
+      "quantity": 95870,
+      "revenue": 351289.33
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "PHI_2",
+      "quantity": 119738,
+      "revenue": 402762.58
+    },
+    {
+      "period": "2014-09",
+      "storeCode": "PHI_3",
+      "quantity": 84995,
+      "revenue": 283177.23
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "BOS_1",
+      "quantity": 90359,
+      "revenue": 333724.31
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "BOS_2",
+      "quantity": 110196,
+      "revenue": 409844.7
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "BOS_3",
+      "quantity": 105569,
+      "revenue": 399382.31
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "NYC_1",
+      "quantity": 137712,
+      "revenue": 517117.79
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "NYC_2",
+      "quantity": 75793,
+      "revenue": 309817.76
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "NYC_3",
+      "quantity": 194219,
+      "revenue": 731808.34
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "NYC_4",
+      "quantity": 74435,
+      "revenue": 293346.61
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "PHI_1",
+      "quantity": 99725,
+      "revenue": 372370.42
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "PHI_2",
+      "quantity": 127350,
+      "revenue": 451217.29
+    },
+    {
+      "period": "2014-10",
+      "storeCode": "PHI_3",
+      "quantity": 87720,
+      "revenue": 305588.88
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "BOS_1",
+      "quantity": 88709,
+      "revenue": 329941.88
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "BOS_2",
+      "quantity": 103096,
+      "revenue": 383258.97
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "BOS_3",
+      "quantity": 98436,
+      "revenue": 375833.64
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "NYC_1",
+      "quantity": 132830,
+      "revenue": 499720.7
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "NYC_2",
+      "quantity": 74463,
+      "revenue": 304627.39
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "NYC_3",
+      "quantity": 184386,
+      "revenue": 693166.11
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "NYC_4",
+      "quantity": 67750,
+      "revenue": 270495.94
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "PHI_1",
+      "quantity": 97248,
+      "revenue": 367990.52
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "PHI_2",
+      "quantity": 118361,
+      "revenue": 419131.37
+    },
+    {
+      "period": "2014-11",
+      "storeCode": "PHI_3",
+      "quantity": 85799,
+      "revenue": 302458.76
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "BOS_1",
+      "quantity": 88384,
+      "revenue": 330091.69
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "BOS_2",
+      "quantity": 101710,
+      "revenue": 382622.87
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "BOS_3",
+      "quantity": 97163,
+      "revenue": 370080.82
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "NYC_1",
+      "quantity": 125991,
+      "revenue": 485790.27
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "NYC_2",
+      "quantity": 75950,
+      "revenue": 304852.94
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "NYC_3",
+      "quantity": 165384,
+      "revenue": 630256.13
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "NYC_4",
+      "quantity": 65313,
+      "revenue": 262443.23
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "PHI_1",
+      "quantity": 99234,
+      "revenue": 374062.39
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "PHI_2",
+      "quantity": 114286,
+      "revenue": 404148.62
+    },
+    {
+      "period": "2014-12",
+      "storeCode": "PHI_3",
+      "quantity": 80037,
+      "revenue": 293365.3
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "BOS_1",
+      "quantity": 93292,
+      "revenue": 341386.76
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "BOS_2",
+      "quantity": 107257,
+      "revenue": 403908.08
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "BOS_3",
+      "quantity": 100236,
+      "revenue": 395285.71
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "NYC_1",
+      "quantity": 129815,
+      "revenue": 495398.91
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "NYC_2",
+      "quantity": 76788,
+      "revenue": 308553.53
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "NYC_3",
+      "quantity": 182024,
+      "revenue": 679452.6
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "NYC_4",
+      "quantity": 69658,
+      "revenue": 278230.65
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "PHI_1",
+      "quantity": 107149,
+      "revenue": 396002.87
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "PHI_2",
+      "quantity": 124938,
+      "revenue": 431216.77
+    },
+    {
+      "period": "2015-01",
+      "storeCode": "PHI_3",
+      "quantity": 91958,
+      "revenue": 321713.21
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "BOS_1",
+      "quantity": 89757,
+      "revenue": 334734.1
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "BOS_2",
+      "quantity": 106243,
+      "revenue": 407451.7
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "BOS_3",
+      "quantity": 102789,
+      "revenue": 410873.18
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "NYC_1",
+      "quantity": 118525,
+      "revenue": 459635.97
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "NYC_2",
+      "quantity": 65579,
+      "revenue": 265364.71
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "NYC_3",
+      "quantity": 172693,
+      "revenue": 654986.09
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "NYC_4",
+      "quantity": 64926,
+      "revenue": 257248.02
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "PHI_1",
+      "quantity": 100541,
+      "revenue": 368847.92
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "PHI_2",
+      "quantity": 119831,
+      "revenue": 422770.36
+    },
+    {
+      "period": "2015-02",
+      "storeCode": "PHI_3",
+      "quantity": 90993,
+      "revenue": 320744.34
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "BOS_1",
+      "quantity": 97623,
+      "revenue": 384529.53
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "BOS_2",
+      "quantity": 113689,
+      "revenue": 461584.05
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "BOS_3",
+      "quantity": 113322,
+      "revenue": 475546.74
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "NYC_1",
+      "quantity": 131789,
+      "revenue": 518479.44
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "NYC_2",
+      "quantity": 75437,
+      "revenue": 309850.6
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "NYC_3",
+      "quantity": 195989,
+      "revenue": 748074.78
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "NYC_4",
+      "quantity": 72824,
+      "revenue": 289427.56
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "PHI_1",
+      "quantity": 105812,
+      "revenue": 389793.39
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "PHI_2",
+      "quantity": 119331,
+      "revenue": 427637.36
+    },
+    {
+      "period": "2015-03",
+      "storeCode": "PHI_3",
+      "quantity": 93911,
+      "revenue": 333098.46
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "BOS_1",
+      "quantity": 93933,
+      "revenue": 368299.59
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "BOS_2",
+      "quantity": 112170,
+      "revenue": 447268.84
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "BOS_3",
+      "quantity": 112726,
+      "revenue": 464420.44
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "NYC_1",
+      "quantity": 134218,
+      "revenue": 520831.68
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "NYC_2",
+      "quantity": 71474,
+      "revenue": 299603.68
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "NYC_3",
+      "quantity": 185664,
+      "revenue": 717361.53
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "NYC_4",
+      "quantity": 71315,
+      "revenue": 282725.33
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "PHI_1",
+      "quantity": 100658,
+      "revenue": 373257.56
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "PHI_2",
+      "quantity": 117528,
+      "revenue": 415334.45
+    },
+    {
+      "period": "2015-04",
+      "storeCode": "PHI_3",
+      "quantity": 93743,
+      "revenue": 327084.26
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "BOS_1",
+      "quantity": 99624,
+      "revenue": 387091.95
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "BOS_2",
+      "quantity": 114947,
+      "revenue": 458888.78
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "BOS_3",
+      "quantity": 120625,
+      "revenue": 500148.29
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "NYC_1",
+      "quantity": 142632,
+      "revenue": 551481.44
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "NYC_2",
+      "quantity": 79296,
+      "revenue": 329705.05
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "NYC_3",
+      "quantity": 192550,
+      "revenue": 751779.17
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "NYC_4",
+      "quantity": 75237,
+      "revenue": 298746.07
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "PHI_1",
+      "quantity": 108581,
+      "revenue": 398941.07
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "PHI_2",
+      "quantity": 122952,
+      "revenue": 429958.85
+    },
+    {
+      "period": "2015-05",
+      "storeCode": "PHI_3",
+      "quantity": 96570,
+      "revenue": 337914.87
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "BOS_1",
+      "quantity": 99218,
+      "revenue": 365081.91
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "BOS_2",
+      "quantity": 112594,
+      "revenue": 428708.03
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "BOS_3",
+      "quantity": 114566,
+      "revenue": 443445.49
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "NYC_1",
+      "quantity": 136571,
+      "revenue": 513547.74
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "NYC_2",
+      "quantity": 101998,
+      "revenue": 396914.63
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "NYC_3",
+      "quantity": 196845,
+      "revenue": 728539.04
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "NYC_4",
+      "quantity": 72508,
+      "revenue": 280750.77
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "PHI_1",
+      "quantity": 105400,
+      "revenue": 375774.69
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "PHI_2",
+      "quantity": 121590,
+      "revenue": 402080.91
+    },
+    {
+      "period": "2015-06",
+      "storeCode": "PHI_3",
+      "quantity": 94309,
+      "revenue": 314583.9
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "BOS_1",
+      "quantity": 106333,
+      "revenue": 382428.11
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "BOS_2",
+      "quantity": 121879,
+      "revenue": 460396.89
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "BOS_3",
+      "quantity": 119295,
+      "revenue": 465483.01
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "NYC_1",
+      "quantity": 142973,
+      "revenue": 541220.12
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "NYC_2",
+      "quantity": 117409,
+      "revenue": 450935.57
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "NYC_3",
+      "quantity": 203757,
+      "revenue": 764718.02
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "NYC_4",
+      "quantity": 76812,
+      "revenue": 292468.07
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "PHI_1",
+      "quantity": 110997,
+      "revenue": 396933.86
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "PHI_2",
+      "quantity": 128387,
+      "revenue": 430577.16
+    },
+    {
+      "period": "2015-07",
+      "storeCode": "PHI_3",
+      "quantity": 104305,
+      "revenue": 342638.14
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "BOS_1",
+      "quantity": 103796,
+      "revenue": 379892.47
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "BOS_2",
+      "quantity": 121388,
+      "revenue": 465926.17
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "BOS_3",
+      "quantity": 120029,
+      "revenue": 470529.88
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "NYC_1",
+      "quantity": 146168,
+      "revenue": 563239.54
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "NYC_2",
+      "quantity": 128546,
+      "revenue": 496756.17
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "NYC_3",
+      "quantity": 212729,
+      "revenue": 805030.32
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "NYC_4",
+      "quantity": 78229,
+      "revenue": 303138.88
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "PHI_1",
+      "quantity": 109018,
+      "revenue": 391509.52
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "PHI_2",
+      "quantity": 132135,
+      "revenue": 450043.37
+    },
+    {
+      "period": "2015-08",
+      "storeCode": "PHI_3",
+      "quantity": 102303,
+      "revenue": 333176.37
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "BOS_1",
+      "quantity": 93635,
+      "revenue": 350840.19
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "BOS_2",
+      "quantity": 113645,
+      "revenue": 432336.03
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "BOS_3",
+      "quantity": 110554,
+      "revenue": 439435.9
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "NYC_1",
+      "quantity": 134939,
+      "revenue": 523158.92
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "NYC_2",
+      "quantity": 122909,
+      "revenue": 474417.66
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "NYC_3",
+      "quantity": 197867,
+      "revenue": 734611.04
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "NYC_4",
+      "quantity": 75816,
+      "revenue": 290818.07
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "PHI_1",
+      "quantity": 102060,
+      "revenue": 370146.96
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "PHI_2",
+      "quantity": 134317,
+      "revenue": 455190.03
+    },
+    {
+      "period": "2015-09",
+      "storeCode": "PHI_3",
+      "quantity": 103171,
+      "revenue": 329809.26
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "BOS_1",
+      "quantity": 96230,
+      "revenue": 366726.25
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "BOS_2",
+      "quantity": 119608,
+      "revenue": 461486.84
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "BOS_3",
+      "quantity": 118225,
+      "revenue": 484674.15
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "NYC_1",
+      "quantity": 141987,
+      "revenue": 547275.39
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "NYC_2",
+      "quantity": 131550,
+      "revenue": 518346.18
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "NYC_3",
+      "quantity": 198226,
+      "revenue": 759318.36
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "NYC_4",
+      "quantity": 79262,
+      "revenue": 309641.93
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "PHI_1",
+      "quantity": 111776,
+      "revenue": 408143.14
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "PHI_2",
+      "quantity": 139328,
+      "revenue": 503597.51
+    },
+    {
+      "period": "2015-10",
+      "storeCode": "PHI_3",
+      "quantity": 112245,
+      "revenue": 375020.41
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "BOS_1",
+      "quantity": 88531,
+      "revenue": 344336.83
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "BOS_2",
+      "quantity": 109508,
+      "revenue": 433515.28
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "BOS_3",
+      "quantity": 105675,
+      "revenue": 449547.77
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "NYC_1",
+      "quantity": 123590,
+      "revenue": 500494.42
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "NYC_2",
+      "quantity": 117037,
+      "revenue": 481341.56
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "NYC_3",
+      "quantity": 170986,
+      "revenue": 684785.9
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "NYC_4",
+      "quantity": 70434,
+      "revenue": 279984.27
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "PHI_1",
+      "quantity": 102489,
+      "revenue": 383801.33
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "PHI_2",
+      "quantity": 120937,
+      "revenue": 437275.26
+    },
+    {
+      "period": "2015-11",
+      "storeCode": "PHI_3",
+      "quantity": 104789,
+      "revenue": 358661.07
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "BOS_1",
+      "quantity": 89279,
+      "revenue": 315004.98
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "BOS_2",
+      "quantity": 111871,
+      "revenue": 388028.6
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "BOS_3",
+      "quantity": 104831,
+      "revenue": 394104.94
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "NYC_1",
+      "quantity": 123656,
+      "revenue": 450668.64
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "NYC_2",
+      "quantity": 120398,
+      "revenue": 433934.57
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "NYC_3",
+      "quantity": 167423,
+      "revenue": 586417.83
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "NYC_4",
+      "quantity": 68080,
+      "revenue": 241534.23
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "PHI_1",
+      "quantity": 110443,
+      "revenue": 367661.35
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "PHI_2",
+      "quantity": 126354,
+      "revenue": 402592.08
+    },
+    {
+      "period": "2015-12",
+      "storeCode": "PHI_3",
+      "quantity": 103901,
+      "revenue": 319856.88
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "BOS_1",
+      "quantity": 93112,
+      "revenue": 325491.9
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "BOS_2",
+      "quantity": 116650,
+      "revenue": 418162.52
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "BOS_3",
+      "quantity": 112028,
+      "revenue": 428067.43
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "NYC_1",
+      "quantity": 131598,
+      "revenue": 469206.31
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "NYC_2",
+      "quantity": 128709,
+      "revenue": 467511.9
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "NYC_3",
+      "quantity": 189217,
+      "revenue": 658278.42
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "NYC_4",
+      "quantity": 75868,
+      "revenue": 271603.34
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "PHI_1",
+      "quantity": 113934,
+      "revenue": 376644.31
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "PHI_2",
+      "quantity": 140948,
+      "revenue": 462100.11
+    },
+    {
+      "period": "2016-01",
+      "storeCode": "PHI_3",
+      "quantity": 113222,
+      "revenue": 346688.99
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "BOS_1",
+      "quantity": 93504,
+      "revenue": 365545.05
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "BOS_2",
+      "quantity": 121410,
+      "revenue": 487708.19
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "BOS_3",
+      "quantity": 113196,
+      "revenue": 483435.46
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "NYC_1",
+      "quantity": 126655,
+      "revenue": 500764.46
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "NYC_2",
+      "quantity": 121210,
+      "revenue": 488567.36
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "NYC_3",
+      "quantity": 185822,
+      "revenue": 727185.61
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "NYC_4",
+      "quantity": 72017,
+      "revenue": 289204.79
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "PHI_1",
+      "quantity": 109622,
+      "revenue": 408854.18
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "PHI_2",
+      "quantity": 154084,
+      "revenue": 561117.27
+    },
+    {
+      "period": "2016-02",
+      "storeCode": "PHI_3",
+      "quantity": 115407,
+      "revenue": 398202.27
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "BOS_1",
+      "quantity": 100805,
+      "revenue": 388958.83
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "BOS_2",
+      "quantity": 125617,
+      "revenue": 495018.02
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "BOS_3",
+      "quantity": 117252,
+      "revenue": 487926.22
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "NYC_1",
+      "quantity": 136557,
+      "revenue": 538033.33
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "NYC_2",
+      "quantity": 126302,
+      "revenue": 505869.38
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "NYC_3",
+      "quantity": 196350,
+      "revenue": 775032.11
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "NYC_4",
+      "quantity": 79721,
+      "revenue": 319259.87
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "PHI_1",
+      "quantity": 114348,
+      "revenue": 417652.36
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "PHI_2",
+      "quantity": 159236,
+      "revenue": 564088.08
+    },
+    {
+      "period": "2016-03",
+      "storeCode": "PHI_3",
+      "quantity": 119558,
+      "revenue": 406753.22
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "BOS_1",
+      "quantity": 81819,
+      "revenue": 315636.91
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "BOS_2",
+      "quantity": 96975,
+      "revenue": 388607.07
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "BOS_3",
+      "quantity": 93751,
+      "revenue": 394692.29
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "NYC_1",
+      "quantity": 112847,
+      "revenue": 454075.84
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "NYC_2",
+      "quantity": 110521,
+      "revenue": 450475.64
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "NYC_3",
+      "quantity": 155316,
+      "revenue": 632689.03
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "NYC_4",
+      "quantity": 64733,
+      "revenue": 265232.12
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "PHI_1",
+      "quantity": 95912,
+      "revenue": 358890.11
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "PHI_2",
+      "quantity": 135231,
+      "revenue": 479451.81
+    },
+    {
+      "period": "2016-04",
+      "storeCode": "PHI_3",
+      "quantity": 99583,
+      "revenue": 346868.11
+    }
+  ]
+}

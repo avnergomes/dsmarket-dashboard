@@ -1,0 +1,399 @@
+{
+  "lastUpdated": "2026-02-10 13:55:06",
+  "parameters": {
+    "leadTimeDays": 7,
+    "serviceLevel": 95.0,
+    "zScore": 1.65
+  },
+  "summary": {
+    "totalAvgDailyDemand": 34342.0,
+    "totalSafetyStock": 38056.0,
+    "totalReorderPoint": 278445.0,
+    "avgFillRate": 97.4,
+    "avgCV": 0.26,
+    "leadTimeDays": 7,
+    "serviceLevel": 95.0,
+    "nStores": 10,
+    "nCategories": 3
+  },
+  "byStore": [
+    {
+      "store": "NYC_3",
+      "avgDailyDemand": 5848.5,
+      "stdDailyDemand": 1200.7,
+      "safetyStock": 5242.0,
+      "reorderPoint": 46181.0,
+      "eoq": 17434.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.9,
+      "cv": 0.21
+    },
+    {
+      "store": "NYC_1",
+      "avgDailyDemand": 4024.2,
+      "stdDailyDemand": 991.8,
+      "safetyStock": 4330.0,
+      "reorderPoint": 32499.0,
+      "eoq": 14319.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.5,
+      "cv": 0.25
+    },
+    {
+      "store": "BOS_2",
+      "avgDailyDemand": 3771.2,
+      "stdDailyDemand": 792.9,
+      "safetyStock": 3461.0,
+      "reorderPoint": 29860.0,
+      "eoq": 14057.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.9,
+      "cv": 0.21
+    },
+    {
+      "store": "PHI_2",
+      "avgDailyDemand": 3420.8,
+      "stdDailyDemand": 1285.0,
+      "safetyStock": 5609.0,
+      "reorderPoint": 29555.0,
+      "eoq": 13778.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 96.2,
+      "cv": 0.38
+    },
+    {
+      "store": "PHI_3",
+      "avgDailyDemand": 3360.1,
+      "stdDailyDemand": 825.5,
+      "safetyStock": 3604.0,
+      "reorderPoint": 27124.0,
+      "eoq": 13822.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.5,
+      "cv": 0.25
+    },
+    {
+      "store": "BOS_3",
+      "avgDailyDemand": 3183.1,
+      "stdDailyDemand": 681.4,
+      "safetyStock": 2975.0,
+      "reorderPoint": 25256.0,
+      "eoq": 12735.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.9,
+      "cv": 0.21
+    },
+    {
+      "store": "NYC_2",
+      "avgDailyDemand": 2972.0,
+      "stdDailyDemand": 900.1,
+      "safetyStock": 3929.0,
+      "reorderPoint": 24733.0,
+      "eoq": 12017.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.0,
+      "cv": 0.3
+    },
+    {
+      "store": "BOS_1",
+      "avgDailyDemand": 2924.9,
+      "stdDailyDemand": 614.8,
+      "safetyStock": 2684.0,
+      "reorderPoint": 23158.0,
+      "eoq": 12461.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 97.9,
+      "cv": 0.21
+    },
+    {
+      "store": "PHI_1",
+      "avgDailyDemand": 2691.6,
+      "stdDailyDemand": 997.3,
+      "safetyStock": 4354.0,
+      "reorderPoint": 23195.0,
+      "eoq": 11817.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 96.3,
+      "cv": 0.37
+    },
+    {
+      "store": "NYC_4",
+      "avgDailyDemand": 2145.2,
+      "stdDailyDemand": 427.9,
+      "safetyStock": 1868.0,
+      "reorderPoint": 16884.0,
+      "eoq": 10363.0,
+      "daysOfSupply": 10.0,
+      "estimatedFillRate": 98.0,
+      "cv": 0.2
+    }
+  ],
+  "byCategory": [
+    {
+      "category": "SUPERMARKET",
+      "avgDailyDemand": 23570.3,
+      "stdDailyDemand": 4908.5,
+      "safetyStock": 21428.0,
+      "reorderPoint": 186420.0,
+      "cv": 0.21
+    },
+    {
+      "category": "HOME_&_GARDEN",
+      "avgDailyDemand": 7569.6,
+      "stdDailyDemand": 2194.6,
+      "safetyStock": 9581.0,
+      "reorderPoint": 62568.0,
+      "cv": 0.29
+    },
+    {
+      "category": "ACCESORIES",
+      "avgDailyDemand": 3201.7,
+      "stdDailyDemand": 706.4,
+      "safetyStock": 3084.0,
+      "reorderPoint": 25495.0,
+      "cv": 0.22
+    }
+  ],
+  "criticalItems": [
+    {
+      "id": "ACCESORIES_1_001_BOS_1",
+      "store": "BOS_1",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 10,
+      "avgDaily": 0.34,
+      "cv": 1.6,
+      "safetyStock": 2.0,
+      "reorderPoint": 5.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_001_BOS_2",
+      "store": "BOS_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 8,
+      "avgDaily": 0.28,
+      "cv": 1.91,
+      "safetyStock": 2.0,
+      "reorderPoint": 4.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_001_BOS_3",
+      "store": "BOS_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 10,
+      "avgDaily": 0.34,
+      "cv": 1.94,
+      "safetyStock": 3.0,
+      "reorderPoint": 5.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_001_PHI_1",
+      "store": "PHI_1",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 11,
+      "avgDaily": 0.38,
+      "cv": 1.64,
+      "safetyStock": 3.0,
+      "reorderPoint": 5.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_001_PHI_2",
+      "store": "PHI_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 7,
+      "avgDaily": 0.24,
+      "cv": 1.8,
+      "safetyStock": 2.0,
+      "reorderPoint": 4.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_001_PHI_3",
+      "store": "PHI_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 4,
+      "avgDaily": 0.14,
+      "cv": 2.54,
+      "safetyStock": 2.0,
+      "reorderPoint": 2.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_BOS_1",
+      "store": "BOS_1",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 2,
+      "avgDaily": 0.07,
+      "cv": 3.74,
+      "safetyStock": 1.0,
+      "reorderPoint": 2.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_BOS_2",
+      "store": "BOS_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 6,
+      "avgDaily": 0.21,
+      "cv": 2.37,
+      "safetyStock": 2.0,
+      "reorderPoint": 4.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_BOS_3",
+      "store": "BOS_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 4,
+      "avgDaily": 0.14,
+      "cv": 2.54,
+      "safetyStock": 2.0,
+      "reorderPoint": 2.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_NYC_1",
+      "store": "NYC_1",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 3,
+      "avgDaily": 0.1,
+      "cv": 3.0,
+      "safetyStock": 1.0,
+      "reorderPoint": 2.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_NYC_2",
+      "store": "NYC_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 3,
+      "avgDaily": 0.1,
+      "cv": 3.96,
+      "safetyStock": 2.0,
+      "reorderPoint": 3.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_NYC_3",
+      "store": "NYC_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 3,
+      "avgDaily": 0.1,
+      "cv": 3.96,
+      "safetyStock": 2.0,
+      "reorderPoint": 3.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_NYC_4",
+      "store": "NYC_4",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 5,
+      "avgDaily": 0.17,
+      "cv": 2.72,
+      "safetyStock": 2.0,
+      "reorderPoint": 3.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_002_PHI_2",
+      "store": "PHI_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 15,
+      "avgDaily": 0.52,
+      "cv": 1.52,
+      "safetyStock": 3.0,
+      "reorderPoint": 7.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_002_PHI_3",
+      "store": "PHI_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 7,
+      "avgDaily": 0.24,
+      "cv": 1.8,
+      "safetyStock": 2.0,
+      "reorderPoint": 4.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_003_BOS_1",
+      "store": "BOS_1",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 6,
+      "avgDaily": 0.21,
+      "cv": 1.99,
+      "safetyStock": 2.0,
+      "reorderPoint": 3.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_003_BOS_2",
+      "store": "BOS_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 3,
+      "avgDaily": 0.1,
+      "cv": 3.0,
+      "safetyStock": 1.0,
+      "reorderPoint": 2.0,
+      "riskLevel": "High"
+    },
+    {
+      "id": "ACCESORIES_1_003_BOS_3",
+      "store": "BOS_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 9,
+      "avgDaily": 0.31,
+      "cv": 1.52,
+      "safetyStock": 2.0,
+      "reorderPoint": 4.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_003_NYC_2",
+      "store": "NYC_2",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 15,
+      "avgDaily": 0.52,
+      "cv": 1.91,
+      "safetyStock": 4.0,
+      "reorderPoint": 8.0,
+      "riskLevel": "Medium"
+    },
+    {
+      "id": "ACCESORIES_1_003_NYC_3",
+      "store": "NYC_3",
+      "category": "ACCESORIES",
+      "department": "ACCESORIES_1",
+      "totalQty28d": 6,
+      "avgDaily": 0.21,
+      "cv": 1.99,
+      "safetyStock": 2.0,
+      "reorderPoint": 3.0,
+      "riskLevel": "Medium"
+    }
+  ]
+}

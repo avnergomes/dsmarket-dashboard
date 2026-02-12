@@ -1,0 +1,599 @@
+{
+  "lastUpdated": "2026-02-10 13:29:58",
+  "forecastHorizon": 28,
+  "model": "RandomForest",
+  "total": {
+    "available": true,
+    "metrics": {
+      "mae": 2102.95,
+      "rmse": 2774.22,
+      "mape": 4.86
+    }
+  },
+  "categories": [
+    {
+      "id": "ACCESORIES",
+      "name": "ACCESORIES",
+      "type": "category",
+      "metrics": {
+        "mae": 234.11,
+        "rmse": 295.86,
+        "mape": 5.98
+      }
+    },
+    {
+      "id": "HOME_&_GARDEN",
+      "name": "HOME_&_GARDEN",
+      "type": "category",
+      "metrics": {
+        "mae": 551.25,
+        "rmse": 736.01,
+        "mape": 5.34
+      }
+    },
+    {
+      "id": "SUPERMARKET",
+      "name": "SUPERMARKET",
+      "type": "category",
+      "metrics": {
+        "mae": 1306.9,
+        "rmse": 1873.09,
+        "mape": 4.51
+      }
+    }
+  ],
+  "stores": [
+    {
+      "id": "NYC_1",
+      "name": "NYC_1",
+      "type": "store",
+      "metrics": {
+        "mae": 287.33,
+        "rmse": 383.7,
+        "mape": 6.04
+      }
+    },
+    {
+      "id": "NYC_2",
+      "name": "NYC_2",
+      "type": "store",
+      "metrics": {
+        "mae": 503.78,
+        "rmse": 866.0,
+        "mape": 12.12
+      }
+    },
+    {
+      "id": "NYC_3",
+      "name": "NYC_3",
+      "type": "store",
+      "metrics": {
+        "mae": 287.53,
+        "rmse": 378.38,
+        "mape": 4.43
+      }
+    },
+    {
+      "id": "NYC_4",
+      "name": "NYC_4",
+      "type": "store",
+      "metrics": {
+        "mae": 182.33,
+        "rmse": 231.29,
+        "mape": 6.61
+      }
+    },
+    {
+      "id": "BOS_1",
+      "name": "BOS_1",
+      "type": "store",
+      "metrics": {
+        "mae": 160.77,
+        "rmse": 206.44,
+        "mape": 4.91
+      }
+    },
+    {
+      "id": "BOS_2",
+      "name": "BOS_2",
+      "type": "store",
+      "metrics": {
+        "mae": 233.17,
+        "rmse": 290.07,
+        "mape": 5.97
+      }
+    },
+    {
+      "id": "BOS_3",
+      "name": "BOS_3",
+      "type": "store",
+      "metrics": {
+        "mae": 242.52,
+        "rmse": 300.88,
+        "mape": 6.52
+      }
+    },
+    {
+      "id": "PHI_1",
+      "name": "PHI_1",
+      "type": "store",
+      "metrics": {
+        "mae": 328.47,
+        "rmse": 462.45,
+        "mape": 8.26
+      }
+    },
+    {
+      "id": "PHI_2",
+      "name": "PHI_2",
+      "type": "store",
+      "metrics": {
+        "mae": 493.27,
+        "rmse": 649.76,
+        "mape": 8.68
+      }
+    },
+    {
+      "id": "PHI_3",
+      "name": "PHI_3",
+      "type": "store",
+      "metrics": {
+        "mae": 260.7,
+        "rmse": 348.49,
+        "mape": 6.9
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "SUPERMARKET_3_090_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 24.31,
+        "rmse": 28.54,
+        "mape": 23.48
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 11.58,
+        "rmse": 14.01,
+        "mape": 14.98
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_BOS_3",
+      "type": "item",
+      "metrics": {
+        "mae": 10.13,
+        "rmse": 12.1,
+        "mape": 16.43
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 9.12,
+        "rmse": 11.23,
+        "mape": 14.24
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 14.15,
+        "rmse": 18.03,
+        "mape": 31.44
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 18.42,
+        "rmse": 24.35,
+        "mape": 37.1
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 14.04,
+        "rmse": 18.58,
+        "mape": 24.1
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_BOS_3",
+      "type": "item",
+      "metrics": {
+        "mae": 13.37,
+        "rmse": 16.34,
+        "mape": 27.13
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 11.01,
+        "rmse": 12.99,
+        "mape": 22.69
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_BOS_1",
+      "type": "item",
+      "metrics": {
+        "mae": 9.11,
+        "rmse": 11.67,
+        "mape": 18.22
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_226_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.61,
+        "rmse": 8.33,
+        "mape": 13.42
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_555_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 6.19,
+        "rmse": 7.66,
+        "mape": 13.98
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_BOS_1",
+      "type": "item",
+      "metrics": {
+        "mae": 10.61,
+        "rmse": 14.45,
+        "mape": 19.15
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_120_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 16.0,
+        "rmse": 23.48,
+        "mape": 386.36
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 6.79,
+        "rmse": 8.0,
+        "mape": 18.63
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_BOS_3",
+      "type": "item",
+      "metrics": {
+        "mae": 10.51,
+        "rmse": 15.11,
+        "mape": 31.3
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 5.44,
+        "rmse": 7.08,
+        "mape": 18.17
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_694_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.77,
+        "rmse": 8.26,
+        "mape": 14.75
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 10.13,
+        "rmse": 12.03,
+        "mape": 25.74
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_541_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 7.62,
+        "rmse": 10.81,
+        "mape": 326.8
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_635_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.89,
+        "rmse": 10.36,
+        "mape": 163.63
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_226_PHI_1",
+      "type": "item",
+      "metrics": {
+        "mae": 6.03,
+        "rmse": 7.38,
+        "mape": 15.95
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_555_BOS_3",
+      "type": "item",
+      "metrics": {
+        "mae": 7.79,
+        "rmse": 10.1,
+        "mape": 47.1
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 6.6,
+        "rmse": 8.62,
+        "mape": 20.7
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_377_BOS_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.06,
+        "rmse": 7.43,
+        "mape": 14.83
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_808_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 8.19,
+        "rmse": 11.06,
+        "mape": 137.58
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_587_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 7.9,
+        "rmse": 9.97,
+        "mape": 24.27
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_226_PHI_2",
+      "type": "item",
+      "metrics": {
+        "mae": 7.11,
+        "rmse": 9.08,
+        "mape": 16.19
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_555_BOS_1",
+      "type": "item",
+      "metrics": {
+        "mae": 5.89,
+        "rmse": 7.42,
+        "mape": 23.74
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_586_NYC_2",
+      "type": "item",
+      "metrics": {
+        "mae": 7.24,
+        "rmse": 9.29,
+        "mape": 22.34
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_377_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 4.7,
+        "rmse": 5.78,
+        "mape": 17.19
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_120_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 19.37,
+        "rmse": 25.76,
+        "mape": 801.96
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_694_PHI_2",
+      "type": "item",
+      "metrics": {
+        "mae": 5.69,
+        "rmse": 7.34,
+        "mape": 14.65
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_555_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 4.86,
+        "rmse": 6.47,
+        "mape": 16.91
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_555_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.13,
+        "rmse": 7.79,
+        "mape": 22.96
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_NYC_2",
+      "type": "item",
+      "metrics": {
+        "mae": 8.38,
+        "rmse": 10.31,
+        "mape": 28.91
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_252_BOS_1",
+      "type": "item",
+      "metrics": {
+        "mae": 6.87,
+        "rmse": 8.92,
+        "mape": 30.99
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_NYC_2",
+      "type": "item",
+      "metrics": {
+        "mae": 12.69,
+        "rmse": 17.12,
+        "mape": 27.91
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_681_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 13.54,
+        "rmse": 17.06,
+        "mape": 71.58
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_318_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.89,
+        "rmse": 9.11,
+        "mape": 34.29
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_714_PHI_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.37,
+        "rmse": 7.65,
+        "mape": 38.28
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_714_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 5.19,
+        "rmse": 6.55,
+        "mape": 38.33
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_090_NYC_4",
+      "type": "item",
+      "metrics": {
+        "mae": 8.5,
+        "rmse": 10.77,
+        "mape": 31.07
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_007_PHI_2",
+      "type": "item",
+      "metrics": {
+        "mae": 14.9,
+        "rmse": 24.6,
+        "mape": 566.05
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_714_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.23,
+        "rmse": 8.36,
+        "mape": 21.81
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_587_NYC_1",
+      "type": "item",
+      "metrics": {
+        "mae": 8.33,
+        "rmse": 11.65,
+        "mape": 70.68
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_202_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 5.75,
+        "rmse": 7.33,
+        "mape": 24.04
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_587_BOS_2",
+      "type": "item",
+      "metrics": {
+        "mae": 5.03,
+        "rmse": 6.43,
+        "mape": 17.14
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_234_PHI_2",
+      "type": "item",
+      "metrics": {
+        "mae": 11.46,
+        "rmse": 17.19,
+        "mape": 831.63
+      }
+    },
+    {
+      "id": "SUPERMARKET_3_607_NYC_3",
+      "type": "item",
+      "metrics": {
+        "mae": 6.0,
+        "rmse": 7.58,
+        "mape": 51.88
+      }
+    }
+  ]
+}

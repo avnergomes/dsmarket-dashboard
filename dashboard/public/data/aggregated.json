@@ -1,0 +1,18 @@
+{
+  "lastUpdated": "2026-02-10 12:50:15",
+  "dateRange": {
+    "start": "2011-01-29",
+    "end": "2016-04-24"
+  },
+  "kpis": {
+    "totalQuantity": 65695409,
+    "totalRevenue": 229615097.08,
+    "totalItems": 30490,
+    "totalStores": 10,
+    "totalDays": 1913,
+    "avgDailyQuantity": 34341.56,
+    "avgDailyRevenue": 120028.8,
+    "topCategory": "SUPERMARKET",
+    "yoyGrowth": -65.39
+  }
+}

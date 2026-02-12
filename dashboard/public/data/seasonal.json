@@ -1,0 +1,535 @@
+{
+  "byDayOfWeek": [
+    {
+      "dayOfWeek": "Friday",
+      "quantity": 9343694,
+      "revenue": 32517320.83
+    },
+    {
+      "dayOfWeek": "Monday",
+      "quantity": 8968860,
+      "revenue": 31489821.78
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "quantity": 11383849,
+      "revenue": 39697630.1
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "quantity": 11269626,
+      "revenue": 39823992.95
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "quantity": 8245967,
+      "revenue": 28660263.05
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "quantity": 8290677,
+      "revenue": 28873238.17
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "quantity": 8192736,
+      "revenue": 28552830.21
+    }
+  ],
+  "byMonth": [
+    {
+      "month": 1,
+      "quantity": 5345511,
+      "revenue": 18311549.01
+    },
+    {
+      "month": 2,
+      "quantity": 5889589,
+      "revenue": 20954059.67
+    },
+    {
+      "month": 3,
+      "quantity": 6387210,
+      "revenue": 22828766.38
+    },
+    {
+      "month": 4,
+      "quantity": 5961011,
+      "revenue": 21251541.17
+    },
+    {
+      "month": 5,
+      "quantity": 5038097,
+      "revenue": 17716928.72
+    },
+    {
+      "month": 6,
+      "quantity": 5250212,
+      "revenue": 17927335.99
+    },
+    {
+      "month": 7,
+      "quantity": 5443975,
+      "revenue": 18648199.94
+    },
+    {
+      "month": 8,
+      "quantity": 5571730,
+      "revenue": 19090800.92
+    },
+    {
+      "month": 9,
+      "quantity": 5321889,
+      "revenue": 18401706.92
+    },
+    {
+      "month": 10,
+      "quantity": 5380589,
+      "revenue": 19012354.88
+    },
+    {
+      "month": 11,
+      "quantity": 4993624,
+      "revenue": 17799910.15
+    },
+    {
+      "month": 12,
+      "quantity": 5111972,
+      "revenue": 17671943.32
+    }
+  ],
+  "heatmap": [
+    {
+      "dayOfWeek": "Friday",
+      "month": 1,
+      "value": 1.12
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 2,
+      "value": 1.1
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 3,
+      "value": 1.1
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 4,
+      "value": 1.12
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 5,
+      "value": 1.09
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 6,
+      "value": 1.17
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 7,
+      "value": 1.19
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 8,
+      "value": 1.19
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 9,
+      "value": 1.14
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 10,
+      "value": 1.15
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 11,
+      "value": 1.05
+    },
+    {
+      "dayOfWeek": "Friday",
+      "month": 12,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 1,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 2,
+      "value": 1.08
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 3,
+      "value": 1.07
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 4,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 5,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 6,
+      "value": 1.13
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 7,
+      "value": 1.09
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 8,
+      "value": 1.12
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 9,
+      "value": 1.14
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 10,
+      "value": 1.07
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 11,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Monday",
+      "month": 12,
+      "value": 1.07
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 1,
+      "value": 1.42
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 2,
+      "value": 1.42
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 3,
+      "value": 1.38
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 4,
+      "value": 1.37
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 5,
+      "value": 1.28
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 6,
+      "value": 1.35
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 7,
+      "value": 1.29
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 8,
+      "value": 1.4
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 9,
+      "value": 1.41
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 10,
+      "value": 1.4
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 11,
+      "value": 1.31
+    },
+    {
+      "dayOfWeek": "Saturday",
+      "month": 12,
+      "value": 1.29
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 1,
+      "value": 1.33
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 2,
+      "value": 1.38
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 3,
+      "value": 1.4
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 4,
+      "value": 1.37
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 5,
+      "value": 1.22
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 6,
+      "value": 1.35
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 7,
+      "value": 1.32
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 8,
+      "value": 1.44
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 9,
+      "value": 1.42
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 10,
+      "value": 1.39
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 11,
+      "value": 1.35
+    },
+    {
+      "dayOfWeek": "Sunday",
+      "month": 12,
+      "value": 1.22
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 1,
+      "value": 0.96
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 2,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 3,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 4,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 5,
+      "value": 0.95
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 6,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 7,
+      "value": 1.08
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 8,
+      "value": 1.04
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 9,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 10,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 11,
+      "value": 0.9
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "month": 12,
+      "value": 0.99
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 1,
+      "value": 0.94
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 2,
+      "value": 0.99
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 3,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 4,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 5,
+      "value": 0.95
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 6,
+      "value": 1.03
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 7,
+      "value": 1.05
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 8,
+      "value": 1.03
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 9,
+      "value": 1.03
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 10,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 11,
+      "value": 0.97
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "month": 12,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 1,
+      "value": 0.94
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 2,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 3,
+      "value": 0.96
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 4,
+      "value": 0.98
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 5,
+      "value": 0.94
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 6,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 7,
+      "value": 1.05
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 8,
+      "value": 1.02
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 9,
+      "value": 1.0
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 10,
+      "value": 0.99
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 11,
+      "value": 0.99
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "month": 12,
+      "value": 0.97
+    }
+  ],
+  "eventImpact": [
+    {
+      "hasEvent": false,
+      "avgQuantity": 1.13,
+      "avgRevenue": 3.94
+    },
+    {
+      "hasEvent": true,
+      "avgQuantity": 1.07,
+      "avgRevenue": 3.6
+    }
+  ]
+}

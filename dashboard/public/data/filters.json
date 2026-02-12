@@ -1,0 +1,41 @@
+{
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "categories": [
+    "ACCESORIES",
+    "HOME_&_GARDEN",
+    "SUPERMARKET"
+  ],
+  "departments": [
+    "ACCESORIES_1",
+    "ACCESORIES_2",
+    "HOME_&_GARDEN_1",
+    "HOME_&_GARDEN_2",
+    "SUPERMARKET_1",
+    "SUPERMARKET_2",
+    "SUPERMARKET_3"
+  ],
+  "stores": [
+    "BOS_1",
+    "BOS_2",
+    "BOS_3",
+    "NYC_1",
+    "NYC_2",
+    "NYC_3",
+    "NYC_4",
+    "PHI_1",
+    "PHI_2",
+    "PHI_3"
+  ],
+  "regions": [
+    "Boston",
+    "New York",
+    "Philadelphia"
+  ]
+}

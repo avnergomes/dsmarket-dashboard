@@ -1,7 +1,5 @@
-# Data files (raw and processed CSVs)
-data/raw/*.csv
-data/processed/*.csv
-data/
+# Data files (raw and processed CSVs - not needed for deployment)
+/data/
 
 # Node.js
 node_modules/
