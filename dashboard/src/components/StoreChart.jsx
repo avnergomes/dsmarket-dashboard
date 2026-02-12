@@ -1,0 +1,75 @@
+import {
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
+  ResponsiveContainer, Cell
+} from 'recharts'
+import { formatNumber, formatCurrency, CHART_COLORS } from '../utils/format'
+
+function CustomTooltip({ active, payload }) {
+  if (!active || !payload || !payload.length) return null
+
+  const data = payload[0].payload
+
+  return (
+    <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg p-4 border border-slate-200">
+      <p className="font-semibold text-slate-700">{data.storeName || data.storeCode}</p>
+      <p className="text-slate-500 text-sm">{data.region}</p>
+      <div className="mt-2 space-y-1 text-sm">
+        <p className="text-slate-600">
+          Revenue: <span className="font-mono font-medium">{formatCurrency(data.revenue)}</span>
+        </p>
+        <p className="text-slate-600">
+          Quantity: <span className="font-mono font-medium">{formatNumber(data.quantity)}</span>
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default function StoreChart({ data, title, onClick }) {
+  if (!data || data.length === 0) {
+    return (
+      <div className="bg-white rounded-xl shadow-lg p-6">
+        <h3 className="text-lg font-semibold text-slate-700 mb-4">{title}</h3>
+        <div className="h-64 flex items-center justify-center text-slate-400">
+          No data available
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="bg-white rounded-xl shadow-lg p-6">
+      <h3 className="text-lg font-semibold text-slate-700 mb-4">{title}</h3>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart
+          data={data}
+          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+          <XAxis
+            dataKey="storeCode"
+            tick={{ fontSize: 12, fill: '#64748b' }}
+          />
+          <YAxis
+            tick={{ fontSize: 12, fill: '#64748b' }}
+            tickFormatter={(v) => formatNumber(v)}
+          />
+          <Tooltip content={<CustomTooltip />} />
+          <Bar
+            dataKey="revenue"
+            radius={[4, 4, 0, 0]}
+            onClick={onClick}
+            cursor={onClick ? 'pointer' : 'default'}
+          >
+            {data.map((entry, index) => (
+              <Cell
+                key={entry.storeCode}
+                fill={CHART_COLORS[index % CHART_COLORS.length]}
+              />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  )
+}
