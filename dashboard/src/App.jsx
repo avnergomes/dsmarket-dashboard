@@ -15,6 +15,12 @@ import ClusterChart from './components/ClusterChart'
 import ForecastChart from './components/ForecastChart'
 import ReplenishmentChart from './components/ReplenishmentChart'
 import Loading from './components/Loading'
+// Advanced D3 Charts
+import RadarChart from './components/RadarChart'
+import LollipopChart from './components/LollipopChart'
+import TreemapChart from './components/TreemapChart'
+import CircularBarChart from './components/CircularBarChart'
+import RidgelineChart from './components/RidgelineChart'
 
 // Tab content components
 function OverviewTab({ data }) {
@@ -36,15 +42,29 @@ function OverviewTab({ data }) {
         />
       </div>
 
+      {/* Advanced D3 Charts */}
+      <TreemapChart
+        categories={data.categories?.byCategory}
+        departments={data.categories?.byDepartment}
+        title="Revenue Hierarchy: Category > Department"
+        width={800}
+        height={350}
+      />
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <StoreChart
+        <RadarChart
           data={data.stores?.byStore}
-          title="Revenue by Store"
+          title="Store Performance Comparison"
+          width={450}
+          height={380}
         />
-        <CategoryBarChart
+        <LollipopChart
           data={data.categories?.byDepartment}
-          title="Revenue by Department"
+          title="Department Revenue Ranking"
+          valueKey="revenue"
           nameKey="department"
+          width={450}
+          height={350}
         />
       </div>
     </div>
@@ -63,9 +83,25 @@ function TemporalTab({ data }) {
         height={400}
       />
 
-      <SeasonalHeatmap
-        data={data.seasonal?.heatmap}
-        title="Average Sales by Day of Week & Month"
+      {/* Advanced D3 Temporal Charts */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <CircularBarChart
+          data={data.seasonal?.byMonth}
+          title="Monthly Sales Pattern (Radial)"
+          width={380}
+          height={380}
+        />
+        <SeasonalHeatmap
+          data={data.seasonal?.heatmap}
+          title="Sales by Day of Week & Month"
+        />
+      </div>
+
+      <RidgelineChart
+        data={data.timeseries}
+        title="Daily Sales Distribution by Year"
+        width={800}
+        height={350}
       />
 
       <HolidayImpactChart timeseries={data.timeseries} />
