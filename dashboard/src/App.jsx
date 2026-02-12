@@ -10,6 +10,7 @@ import TimeSeriesChart from './components/TimeSeriesChart'
 import { CategoryPieChart, CategoryBarChart } from './components/CategoryChart'
 import StoreChart from './components/StoreChart'
 import SeasonalHeatmap from './components/SeasonalHeatmap'
+import HolidayImpactChart from './components/HolidayImpactChart'
 import ClusterChart from './components/ClusterChart'
 import ForecastChart from './components/ForecastChart'
 import ReplenishmentChart from './components/ReplenishmentChart'
@@ -62,34 +63,12 @@ function TemporalTab({ data }) {
         height={400}
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <SeasonalHeatmap
-          data={data.seasonal?.heatmap}
-          title="Average Sales by Day of Week & Month"
-        />
+      <SeasonalHeatmap
+        data={data.seasonal?.heatmap}
+        title="Average Sales by Day of Week & Month"
+      />
 
-        <div className="bg-dark-800 rounded-xl shadow-lg p-6">
-          <h3 className="text-lg font-semibold text-dark-100 mb-4">Day of Week Pattern</h3>
-          <div className="space-y-3">
-            {data.seasonal?.byDayOfWeek?.map((day) => (
-              <div key={day.dayOfWeek} className="flex items-center gap-4">
-                <span className="w-24 text-sm text-dark-200">{day.dayOfWeek}</span>
-                <div className="flex-1 bg-dark-700 rounded-full h-6 overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-primary-400 to-primary-600 rounded-full"
-                    style={{
-                      width: `${(day.quantity / Math.max(...data.seasonal.byDayOfWeek.map(d => d.quantity))) * 100}%`
-                    }}
-                  />
-                </div>
-                <span className="text-sm font-mono text-dark-200 w-20 text-right">
-                  {day.quantity.toLocaleString()}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      <HolidayImpactChart timeseries={data.timeseries} />
 
       <TimeSeriesChart
         data={data.timeseries?.yearly}
