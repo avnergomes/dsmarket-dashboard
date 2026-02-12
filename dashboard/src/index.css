@@ -6,40 +6,41 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply bg-dark-900 text-dark-100;
 }
 
 .font-mono {
   font-family: 'JetBrains Mono', monospace;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - dark theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #1e293b;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #475569;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #64748b;
 }
 
-/* Chart container */
+/* Chart container - dark theme */
 .chart-container {
-  @apply bg-white rounded-xl shadow-lg p-6;
+  @apply bg-dark-800 rounded-xl shadow-lg p-6;
 }
 
-/* Gradient header */
+/* Gradient header - colorblind-friendly */
 .gradient-header {
-  background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+  background: linear-gradient(135deg, #0077BB 0%, #009988 100%);
 }
 
 /* Card hover effect */
@@ -59,4 +60,9 @@ body {
 
 .animate-pulse-slow {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Dark theme tooltip override */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  @apply bg-dark-800 border-dark-600 text-dark-100;
 }

@@ -2,20 +2,20 @@
  * Formatting utilities for the dashboard
  */
 
-// Chart color palette
+// Colorblind-friendly chart color palette (Wong palette + variations)
 export const CHART_COLORS = [
-  '#6366f1', // Indigo (primary)
-  '#ec4899', // Pink
-  '#8b5cf6', // Violet
-  '#06b6d4', // Cyan
-  '#10b981', // Emerald
-  '#f59e0b', // Amber
-  '#ef4444', // Red
-  '#84cc16', // Lime
-  '#14b8a6', // Teal
-  '#f97316', // Orange
-  '#a855f7', // Purple
-  '#3b82f6', // Blue
+  '#0077BB', // Blue (primary)
+  '#EE7733', // Orange
+  '#33BBEE', // Cyan
+  '#EE3377', // Magenta
+  '#CCBB44', // Yellow
+  '#009988', // Teal
+  '#AA4499', // Purple
+  '#BBBBBB', // Grey
+  '#44BB99', // Blue-green
+  '#99DDFF', // Light blue
+  '#FFAABB', // Light pink
+  '#77AADD', // Light purple-blue
 ]
 
 /**

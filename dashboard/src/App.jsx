@@ -68,13 +68,13 @@ function TemporalTab({ data }) {
           title="Average Sales by Day of Week & Month"
         />
 
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="text-lg font-semibold text-slate-700 mb-4">Day of Week Pattern</h3>
+        <div className="bg-dark-800 rounded-xl shadow-lg p-6">
+          <h3 className="text-lg font-semibold text-dark-100 mb-4">Day of Week Pattern</h3>
           <div className="space-y-3">
             {data.seasonal?.byDayOfWeek?.map((day) => (
               <div key={day.dayOfWeek} className="flex items-center gap-4">
-                <span className="w-24 text-sm text-slate-600">{day.dayOfWeek}</span>
-                <div className="flex-1 bg-slate-100 rounded-full h-6 overflow-hidden">
+                <span className="w-24 text-sm text-dark-200">{day.dayOfWeek}</span>
+                <div className="flex-1 bg-dark-700 rounded-full h-6 overflow-hidden">
                   <div
                     className="h-full bg-gradient-to-r from-primary-400 to-primary-600 rounded-full"
                     style={{
@@ -82,7 +82,7 @@ function TemporalTab({ data }) {
                     }}
                   />
                 </div>
-                <span className="text-sm font-mono text-slate-600 w-20 text-right">
+                <span className="text-sm font-mono text-dark-200 w-20 text-right">
                   {day.quantity.toLocaleString()}
                 </span>
               </div>
@@ -136,17 +136,17 @@ export default function App() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
+      <div className="min-h-screen bg-dark-900 flex items-center justify-center">
         <div className="text-center">
-          <p className="text-red-500 font-medium">Error loading data</p>
-          <p className="text-slate-500 text-sm mt-2">{error}</p>
+          <p className="text-red-400 font-medium">Error loading data</p>
+          <p className="text-dark-300 text-sm mt-2">{error}</p>
         </div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-dark-900">
       <Header />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

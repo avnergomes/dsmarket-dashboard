@@ -10,7 +10,7 @@ const tabs = [
 
 export default function Tabs({ activeTab, onTabChange }) {
   return (
-    <div className="bg-white rounded-xl shadow-sm p-1.5 mb-6">
+    <div className="bg-dark-800 rounded-xl shadow-sm p-1.5 mb-6 border border-dark-700">
       <div className="flex flex-wrap gap-1">
         {tabs.map((tab) => {
           const Icon = tab.icon
@@ -25,7 +25,7 @@ export default function Tabs({ activeTab, onTabChange }) {
                 transition-all duration-200
                 ${isActive
                   ? 'bg-primary-500 text-white shadow-md'
-                  : 'text-slate-600 hover:bg-slate-100'
+                  : 'text-dark-200 hover:bg-dark-700'
                 }
               `}
             >

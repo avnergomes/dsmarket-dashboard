@@ -7,22 +7,22 @@ import { formatNumber, CHART_COLORS } from '../utils/format'
 
 function KpiCard({ icon: Icon, label, value, unit, color = 'primary' }) {
   const colorClasses = {
-    primary: 'bg-primary-50 text-primary-600',
-    success: 'bg-emerald-50 text-emerald-600',
-    warning: 'bg-amber-50 text-amber-600',
-    danger: 'bg-red-50 text-red-600'
+    primary: 'bg-primary-900/50 text-primary-400',
+    success: 'bg-teal-900/50 text-accent-teal',
+    warning: 'bg-yellow-900/50 text-accent-yellow',
+    danger: 'bg-secondary-900/50 text-secondary-400'
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-5">
+    <div className="bg-dark-800 rounded-xl shadow-lg p-5 border border-dark-700">
       <div className="flex items-center gap-3">
         <div className={`p-3 rounded-lg ${colorClasses[color]}`}>
           <Icon className="w-5 h-5" />
         </div>
         <div>
-          <p className="text-sm text-slate-500">{label}</p>
-          <p className="text-xl font-bold text-slate-800 font-mono">
-            {formatNumber(value, 0)} <span className="text-sm font-normal text-slate-500">{unit}</span>
+          <p className="text-sm text-dark-400">{label}</p>
+          <p className="text-xl font-bold text-dark-100 font-mono">
+            {formatNumber(value, 0)} <span className="text-sm font-normal text-dark-400">{unit}</span>
           </p>
         </div>
       </div>
@@ -34,42 +34,42 @@ function StoreMetricsTable({ data }) {
   if (!data || data.length === 0) return null
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
-      <h3 className="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2">
-        <Store className="w-5 h-5 text-primary-500" />
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+      <h3 className="text-lg font-semibold text-dark-100 mb-4 flex items-center gap-2">
+        <Store className="w-5 h-5 text-primary-400" />
         Store Replenishment Metrics
       </h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-slate-200">
-              <th className="text-left py-3 px-2 font-semibold text-slate-600">Store</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Avg Daily</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Safety Stock</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Reorder Point</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">EOQ</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Fill Rate</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">CV</th>
+            <tr className="border-b border-dark-600">
+              <th className="text-left py-3 px-2 font-semibold text-dark-300">Store</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Avg Daily</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Safety Stock</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Reorder Point</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">EOQ</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Fill Rate</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">CV</th>
             </tr>
           </thead>
           <tbody>
             {data.map((store, idx) => (
-              <tr key={store.store} className={idx % 2 === 0 ? 'bg-slate-50' : ''}>
-                <td className="py-3 px-2 font-medium text-slate-700">{store.store}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(store.avgDailyDemand, 0)}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(store.safetyStock, 0)}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(store.reorderPoint, 0)}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(store.eoq, 0)}</td>
+              <tr key={store.store} className={idx % 2 === 0 ? 'bg-dark-700/50' : ''}>
+                <td className="py-3 px-2 font-medium text-dark-100">{store.store}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(store.avgDailyDemand, 0)}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(store.safetyStock, 0)}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(store.reorderPoint, 0)}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(store.eoq, 0)}</td>
                 <td className="py-3 px-2 text-right">
                   <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                    store.estimatedFillRate >= 95 ? 'bg-emerald-100 text-emerald-700' :
-                    store.estimatedFillRate >= 90 ? 'bg-amber-100 text-amber-700' :
-                    'bg-red-100 text-red-700'
+                    store.estimatedFillRate >= 95 ? 'bg-teal-900/50 text-accent-teal' :
+                    store.estimatedFillRate >= 90 ? 'bg-yellow-900/50 text-accent-yellow' :
+                    'bg-secondary-900/50 text-secondary-400'
                   }`}>
                     {store.estimatedFillRate}%
                   </span>
                 </td>
-                <td className="py-3 px-2 text-right font-mono text-slate-500">{store.cv}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-400">{store.cv}</td>
               </tr>
             ))}
           </tbody>
@@ -83,41 +83,41 @@ function CriticalItemsTable({ data }) {
   if (!data || data.length === 0) return null
 
   const riskColors = {
-    High: 'bg-red-100 text-red-700',
-    Medium: 'bg-amber-100 text-amber-700',
-    Low: 'bg-emerald-100 text-emerald-700'
+    High: 'bg-secondary-900/50 text-secondary-400',
+    Medium: 'bg-yellow-900/50 text-accent-yellow',
+    Low: 'bg-teal-900/50 text-accent-teal'
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
-      <h3 className="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2">
-        <AlertTriangle className="w-5 h-5 text-amber-500" />
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+      <h3 className="text-lg font-semibold text-dark-100 mb-4 flex items-center gap-2">
+        <AlertTriangle className="w-5 h-5 text-accent-yellow" />
         Critical Items Requiring Attention
       </h3>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-slate-200">
-              <th className="text-left py-3 px-2 font-semibold text-slate-600">Item ID</th>
-              <th className="text-left py-3 px-2 font-semibold text-slate-600">Store</th>
-              <th className="text-left py-3 px-2 font-semibold text-slate-600">Category</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">28d Sales</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Avg Daily</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Safety Stock</th>
-              <th className="text-right py-3 px-2 font-semibold text-slate-600">Reorder Pt</th>
-              <th className="text-center py-3 px-2 font-semibold text-slate-600">Risk</th>
+            <tr className="border-b border-dark-600">
+              <th className="text-left py-3 px-2 font-semibold text-dark-300">Item ID</th>
+              <th className="text-left py-3 px-2 font-semibold text-dark-300">Store</th>
+              <th className="text-left py-3 px-2 font-semibold text-dark-300">Category</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">28d Sales</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Avg Daily</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Safety Stock</th>
+              <th className="text-right py-3 px-2 font-semibold text-dark-300">Reorder Pt</th>
+              <th className="text-center py-3 px-2 font-semibold text-dark-300">Risk</th>
             </tr>
           </thead>
           <tbody>
             {data.slice(0, 15).map((item, idx) => (
-              <tr key={item.id} className={idx % 2 === 0 ? 'bg-slate-50' : ''}>
-                <td className="py-3 px-2 font-mono text-xs text-slate-700">{item.id}</td>
-                <td className="py-3 px-2 text-slate-600">{item.store}</td>
-                <td className="py-3 px-2 text-slate-600">{item.category}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(item.totalQty28d, 0)}</td>
-                <td className="py-3 px-2 text-right font-mono">{item.avgDaily}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(item.safetyStock, 0)}</td>
-                <td className="py-3 px-2 text-right font-mono">{formatNumber(item.reorderPoint, 0)}</td>
+              <tr key={item.id} className={idx % 2 === 0 ? 'bg-dark-700/50' : ''}>
+                <td className="py-3 px-2 font-mono text-xs text-dark-200">{item.id}</td>
+                <td className="py-3 px-2 text-dark-300">{item.store}</td>
+                <td className="py-3 px-2 text-dark-300">{item.category}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(item.totalQty28d, 0)}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{item.avgDaily}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(item.safetyStock, 0)}</td>
+                <td className="py-3 px-2 text-right font-mono text-dark-200">{formatNumber(item.reorderPoint, 0)}</td>
                 <td className="py-3 px-2 text-center">
                   <span className={`px-2 py-1 rounded-full text-xs font-medium ${riskColors[item.riskLevel]}`}>
                     {item.riskLevel}
@@ -136,25 +136,26 @@ function StoreComparisonChart({ data }) {
   if (!data || data.length === 0) return null
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
-      <h3 className="text-lg font-semibold text-slate-700 mb-4">Safety Stock vs Reorder Point by Store</h3>
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+      <h3 className="text-lg font-semibold text-dark-100 mb-4">Safety Stock vs Reorder Point by Store</h3>
       <ResponsiveContainer width="100%" height={300}>
         <ComposedChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-          <XAxis dataKey="store" tick={{ fontSize: 12, fill: '#64748b' }} />
-          <YAxis tick={{ fontSize: 12, fill: '#64748b' }} tickFormatter={v => formatNumber(v)} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+          <XAxis dataKey="store" tick={{ fontSize: 12, fill: '#94a3b8' }} />
+          <YAxis tick={{ fontSize: 12, fill: '#94a3b8' }} tickFormatter={v => formatNumber(v)} />
           <Tooltip
             formatter={(value, name) => [formatNumber(value, 0), name]}
             contentStyle={{
-              backgroundColor: 'rgba(255,255,255,0.95)',
+              backgroundColor: 'rgba(15,23,42,0.95)',
               borderRadius: '12px',
-              border: '1px solid #e2e8f0'
+              border: '1px solid #334155',
+              color: '#e2e8f0'
             }}
           />
-          <Legend />
-          <Bar dataKey="safetyStock" name="Safety Stock" fill="#6366f1" radius={[4, 4, 0, 0]} />
-          <Bar dataKey="reorderPoint" name="Reorder Point" fill="#ec4899" radius={[4, 4, 0, 0]} />
-          <Line type="monotone" dataKey="avgDailyDemand" name="Avg Daily Demand" stroke="#10b981" strokeWidth={2} dot={{ r: 4 }} />
+          <Legend wrapperStyle={{ color: '#e2e8f0' }} />
+          <Bar dataKey="safetyStock" name="Safety Stock" fill="#0077BB" radius={[4, 4, 0, 0]} />
+          <Bar dataKey="reorderPoint" name="Reorder Point" fill="#EE7733" radius={[4, 4, 0, 0]} />
+          <Line type="monotone" dataKey="avgDailyDemand" name="Avg Daily Demand" stroke="#009988" strokeWidth={2} dot={{ r: 4 }} />
         </ComposedChart>
       </ResponsiveContainer>
     </div>
@@ -165,24 +166,25 @@ function CategoryMetricsChart({ data }) {
   if (!data || data.length === 0) return null
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
-      <h3 className="text-lg font-semibold text-slate-700 mb-4">Replenishment by Category</h3>
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+      <h3 className="text-lg font-semibold text-dark-100 mb-4">Replenishment by Category</h3>
       <ResponsiveContainer width="100%" height={250}>
         <BarChart data={data} layout="vertical" margin={{ top: 5, right: 30, left: 100, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-          <XAxis type="number" tick={{ fontSize: 12, fill: '#64748b' }} tickFormatter={v => formatNumber(v)} />
-          <YAxis type="category" dataKey="category" tick={{ fontSize: 12, fill: '#64748b' }} width={90} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+          <XAxis type="number" tick={{ fontSize: 12, fill: '#94a3b8' }} tickFormatter={v => formatNumber(v)} />
+          <YAxis type="category" dataKey="category" tick={{ fontSize: 12, fill: '#94a3b8' }} width={90} />
           <Tooltip
             formatter={(value, name) => [formatNumber(value, 0), name]}
             contentStyle={{
-              backgroundColor: 'rgba(255,255,255,0.95)',
+              backgroundColor: 'rgba(15,23,42,0.95)',
               borderRadius: '12px',
-              border: '1px solid #e2e8f0'
+              border: '1px solid #334155',
+              color: '#e2e8f0'
             }}
           />
-          <Legend />
-          <Bar dataKey="safetyStock" name="Safety Stock" fill="#8b5cf6" radius={[0, 4, 4, 0]} />
-          <Bar dataKey="reorderPoint" name="Reorder Point" fill="#06b6d4" radius={[0, 4, 4, 0]} />
+          <Legend wrapperStyle={{ color: '#e2e8f0' }} />
+          <Bar dataKey="safetyStock" name="Safety Stock" fill="#33BBEE" radius={[0, 4, 4, 0]} />
+          <Bar dataKey="reorderPoint" name="Reorder Point" fill="#EE3377" radius={[0, 4, 4, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>
@@ -192,11 +194,11 @@ function CategoryMetricsChart({ data }) {
 export default function ReplenishmentChart({ replenishment }) {
   if (!replenishment || !replenishment.summary) {
     return (
-      <div className="bg-white rounded-xl shadow-lg p-6">
-        <h3 className="text-lg font-semibold text-slate-700 mb-4">Store Replenishment</h3>
-        <div className="text-slate-500 text-center py-12">
+      <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+        <h3 className="text-lg font-semibold text-dark-100 mb-4">Store Replenishment</h3>
+        <div className="text-dark-400 text-center py-12">
           <p>Replenishment analysis will be available after running the forecasting pipeline.</p>
-          <p className="text-sm mt-2">This module calculates optimal reorder points and safety stock levels.</p>
+          <p className="text-sm mt-2 text-dark-500">This module calculates optimal reorder points and safety stock levels.</p>
         </div>
       </div>
     )
@@ -239,8 +241,8 @@ export default function ReplenishmentChart({ replenishment }) {
       </div>
 
       {/* Parameters info */}
-      <div className="bg-slate-50 rounded-lg p-4 text-sm text-slate-600">
-        <span className="font-medium">Parameters:</span> Lead Time = {parameters.leadTimeDays} days | Service Level = {parameters.serviceLevel}% | Z-Score = {parameters.zScore}
+      <div className="bg-dark-700 rounded-lg p-4 text-sm text-dark-300 border border-dark-600">
+        <span className="font-medium text-dark-200">Parameters:</span> Lead Time = {parameters.leadTimeDays} days | Service Level = {parameters.serviceLevel}% | Z-Score = {parameters.zScore}
       </div>
 
       {/* Charts */}

@@ -10,15 +10,15 @@ function CustomTooltip({ active, payload }) {
   const data = payload[0].payload
 
   return (
-    <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg p-4 border border-slate-200">
-      <p className="font-semibold text-slate-700">{data.storeName || data.storeCode}</p>
-      <p className="text-slate-500 text-sm">{data.region}</p>
+    <div className="bg-dark-800/95 backdrop-blur-sm rounded-xl shadow-lg p-4 border border-dark-600">
+      <p className="font-semibold text-dark-100">{data.storeName || data.storeCode}</p>
+      <p className="text-dark-400 text-sm">{data.region}</p>
       <div className="mt-2 space-y-1 text-sm">
-        <p className="text-slate-600">
-          Revenue: <span className="font-mono font-medium">{formatCurrency(data.revenue)}</span>
+        <p className="text-dark-300">
+          Revenue: <span className="font-mono font-medium text-dark-100">{formatCurrency(data.revenue)}</span>
         </p>
-        <p className="text-slate-600">
-          Quantity: <span className="font-mono font-medium">{formatNumber(data.quantity)}</span>
+        <p className="text-dark-300">
+          Quantity: <span className="font-mono font-medium text-dark-100">{formatNumber(data.quantity)}</span>
         </p>
       </div>
     </div>
@@ -28,9 +28,9 @@ function CustomTooltip({ active, payload }) {
 export default function StoreChart({ data, title, onClick }) {
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white rounded-xl shadow-lg p-6">
-        <h3 className="text-lg font-semibold text-slate-700 mb-4">{title}</h3>
-        <div className="h-64 flex items-center justify-center text-slate-400">
+      <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+        <h3 className="text-lg font-semibold text-dark-100 mb-4">{title}</h3>
+        <div className="h-64 flex items-center justify-center text-dark-400">
           No data available
         </div>
       </div>
@@ -38,20 +38,20 @@ export default function StoreChart({ data, title, onClick }) {
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
-      <h3 className="text-lg font-semibold text-slate-700 mb-4">{title}</h3>
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 border border-dark-700">
+      <h3 className="text-lg font-semibold text-dark-100 mb-4">{title}</h3>
       <ResponsiveContainer width="100%" height={300}>
         <BarChart
           data={data}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
           <XAxis
             dataKey="storeCode"
-            tick={{ fontSize: 12, fill: '#64748b' }}
+            tick={{ fontSize: 12, fill: '#94a3b8' }}
           />
           <YAxis
-            tick={{ fontSize: 12, fill: '#64748b' }}
+            tick={{ fontSize: 12, fill: '#94a3b8' }}
             tickFormatter={(v) => formatNumber(v)}
           />
           <Tooltip content={<CustomTooltip />} />

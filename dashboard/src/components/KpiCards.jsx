@@ -3,20 +3,20 @@ import { formatNumber, formatCurrency, formatPercent } from '../utils/format'
 
 function KpiCard({ title, value, subtitle, icon: Icon, trend, trendLabel, color = 'primary' }) {
   const colorClasses = {
-    primary: 'bg-primary-50 text-primary-600',
-    secondary: 'bg-secondary-50 text-secondary-600',
-    emerald: 'bg-emerald-50 text-emerald-600',
-    amber: 'bg-amber-50 text-amber-600',
+    primary: 'bg-primary-900/50 text-primary-400',
+    secondary: 'bg-secondary-900/50 text-secondary-400',
+    emerald: 'bg-teal-900/50 text-accent-teal',
+    amber: 'bg-yellow-900/50 text-accent-yellow',
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 card-hover">
+    <div className="bg-dark-800 rounded-xl shadow-lg p-6 card-hover border border-dark-700">
       <div className="flex items-start justify-between">
         <div>
-          <p className="text-slate-500 text-sm font-medium">{title}</p>
-          <p className="text-2xl font-bold text-slate-800 mt-1 font-mono">{value}</p>
+          <p className="text-dark-300 text-sm font-medium">{title}</p>
+          <p className="text-2xl font-bold text-dark-50 mt-1 font-mono">{value}</p>
           {subtitle && (
-            <p className="text-slate-400 text-xs mt-1">{subtitle}</p>
+            <p className="text-dark-400 text-xs mt-1">{subtitle}</p>
           )}
         </div>
         <div className={`p-3 rounded-xl ${colorClasses[color]}`}>
@@ -25,19 +25,19 @@ function KpiCard({ title, value, subtitle, icon: Icon, trend, trendLabel, color 
       </div>
 
       {trend !== undefined && (
-        <div className="flex items-center gap-1 mt-4 pt-4 border-t border-slate-100">
+        <div className="flex items-center gap-1 mt-4 pt-4 border-t border-dark-700">
           {trend > 0 ? (
-            <TrendingUp className="h-4 w-4 text-emerald-500" />
+            <TrendingUp className="h-4 w-4 text-accent-teal" />
           ) : trend < 0 ? (
-            <TrendingDown className="h-4 w-4 text-red-500" />
+            <TrendingDown className="h-4 w-4 text-secondary-500" />
           ) : null}
           <span className={`text-sm font-medium ${
-            trend > 0 ? 'text-emerald-600' : trend < 0 ? 'text-red-600' : 'text-slate-500'
+            trend > 0 ? 'text-accent-teal' : trend < 0 ? 'text-secondary-500' : 'text-dark-400'
           }`}>
             {trend > 0 ? '+' : ''}{formatPercent(trend)}
           </span>
           {trendLabel && (
-            <span className="text-slate-400 text-sm ml-1">{trendLabel}</span>
+            <span className="text-dark-400 text-sm ml-1">{trendLabel}</span>
           )}
         </div>
       )}
